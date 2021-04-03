@@ -17,5 +17,9 @@ The following rating scale can be used to evaluate the severity of usability iss
 
 ## Website 1: Mayo Clinic
 
-Mayo Clinic is a non-profit American organization 
+### About the Project
+Mayo Clinic is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
 
+The richness of health information on the Mayo Clinic website can be both valuable and overwhelming. My goal is to ...
+
+### Heurisitic Evaluation
