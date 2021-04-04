@@ -29,10 +29,10 @@ The richness of health information on the Mayo Clinic website can be both valuab
 
 #### 2. Match Between System and the Real World
 * 
-*Recommendation:*
+*Recommendation:* 
 
 #### 3. User Control and Freedom
-
+* 
 *Recommendation:*
 
 #### 4. Consistency and Standards
@@ -45,7 +45,7 @@ The richness of health information on the Mayo Clinic website can be both valuab
 
 
 #### 7. Flexibility and Efficiency of Use
-
+![Mayo Clinic Symptom Checker](mayo-clinic-symptom-checker-step-1.png)
 
 #### 8. Aesthetic and Minimalist Design
 
