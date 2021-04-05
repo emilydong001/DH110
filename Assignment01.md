@@ -50,9 +50,10 @@ The richness of health information and breadth of features on the Mayo Clinic we
 *Recommendation: Make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
 #### 5. Error Prevention
-* Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following pop-up dialogue box, users would likely randomly click "Yes" or "No" without regard to what the message is.
+* Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following pop-up dialogue box, users would likely randomly click "Yes" or "No" without regard to what the message is. 
 
-*Recommendation: Place warning message in the pop-up dialogue box. Provide visual weight to "No" to show that that is the preferred response, or get rid of the dialogue box and make users check a box to confirm that they are NOT requesting a COVID-19 vaccine appointment before they click "Begin an online request".*
+*Recommendation: Place warning message in the pop-up dialogue box, too. Use radio buttons that are labeled 'I am 
+Provide visual weight to "No" to show that that is the preferred response, or get rid of the dialogue box and make users check a box to confirm that they are NOT requesting a COVID-19 vaccine appointment before they click "Begin an online request".*
 
 #### 6. Recognition Rather Than Recall
 
@@ -61,18 +62,21 @@ The richness of health information and breadth of features on the Mayo Clinic we
 #### 7. Flexibility and Efficiency of Use
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter).
 
+
 *Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.*
 
 * The user needs to select from a large list of symptoms, which is cumbersome and overwhelming.
 ![Mayo Clinic Symptom Checker](mayo-clinic-symptom-checker-step-1.PNG)
 
-*Recommendation: Keep the list so that users can just recognize and click on recommendations, but implement a search feature at the top so that users can have the option to efficiently find the symptom they are experiencing. Also, group the symptoms into different categories *
+*Recommendation: Keep the list so that users can just recognize and click on recommendations, but implement a search feature at the top so that users can have the option to efficiently find the symptom they are experiencing. Also, group the symptoms into different categories to help users find the symptom they are looking for more easily.*
 
 #### 8. Aesthetic and Minimalist Design
 
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
+* If the user clicks "Yes" in the pop-up dialogue box asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
 
+*Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time. 
 
 #### 10. Help and Documentation
 
