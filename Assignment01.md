@@ -20,7 +20,7 @@ The following rating scale can be used to evaluate the severity of usability iss
 ### About the Project
 Mayo Clinic is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
 
-The richness of health information on the Mayo Clinic website can be both valuable and overwhelming. My goal is to ...
+The richness of health information and breadth of features on the Mayo Clinic website can be both valuable and overwhelming. My goal is to preserve the value while streamlining the user's ability to navigate throughout the website.
 
 ### Heurisitic Evaluation
 
@@ -29,8 +29,13 @@ The richness of health information on the Mayo Clinic website can be both valuab
 
 *Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need.*
 
+* When making an appointment, the user is initially prompted that there are 4 total steps. However, within each step is bunch of other steps, which could thwart users. There is no visual representation of progress, only 
+
+*Recommendation: Don't make the whole page blue at each major step. Keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. It would be even better to have a progress bar that slides as the user completes the informaion.
+
 #### 2. Match Between System and the Real World
 
+* 
 
 *Recommendation:* 
 
@@ -40,7 +45,9 @@ The richness of health information on the Mayo Clinic website can be both valuab
 *Recommendation:*
 
 #### 4. Consistency and Standards
-* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which is what every user expects.
+* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
+
+*Recommendation: Make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
 #### 5. Error Prevention
 * Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following pop-up dialogue box, users would likely randomly click "Yes" or "No" without regard to what the message is.
@@ -52,17 +59,14 @@ The richness of health information on the Mayo Clinic website can be both valuab
 *Recommendation: Include a sample search query in the input field so that users know what they can look for.*
 
 #### 7. Flexibility and Efficiency of Use
-
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter).
-*Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.
 
-* The search bar allows the user to either use the Enter key to search or click the magnifying glass. However, because the magnifying glass is within the search box, users may not recognize that. 
+*Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.*
 
 * The user needs to select from a large list of symptoms, which is cumbersome and overwhelming.
 ![Mayo Clinic Symptom Checker](mayo-clinic-symptom-checker-step-1.PNG)
 
-*Recommendation: Implement a search feature so that users can efficiently find the symptom they are experiencing.*
-
+*Recommendation: Keep the list so that users can just recognize and click on recommendations, but implement a search feature at the top so that users can have the option to efficiently find the symptom they are experiencing. Also, group the symptoms into different categories *
 
 #### 8. Aesthetic and Minimalist Design
 
@@ -79,3 +83,7 @@ The richness of health information on the Mayo Clinic website can be both valuab
 | 1 |  |
 | 2 |  |
 | 3 |  |
+
+**Website 2: 
+
+
