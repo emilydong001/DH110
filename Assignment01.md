@@ -25,13 +25,27 @@ The richness of health information and breadth of features on the Mayo Clinic we
 ### Heurisitic Evaluation
 
 #### 1. Visibility of System Status
-* As you type in the search bar, results are not immediately displayed, which makes it difficult for the user to understand how the system is responding to their query.
+* As you type in the search bar, possible options are not immediately displayed, which makes it difficult for the user to understand how the system is responding to their query (results start displaying only after 3 letters are inputted, but users expect it to be instantaneous). Furthermore, the recommended results shown are sometimes almost completely unrelated to health or medical information, which doesn't help the user.
 
-*Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need.*
+<p align="center">
+  <img src="search-query-2.PNG" alt="Search query no immediate results" width = "300px"/>
+  <img src="search-query.png" alt="Search query irrelevant results" width = "300px"/>
+</p>
 
-* When making an appointment, the user is initially prompted that there are 4 total steps. However, within each step is bunch of other steps, which could thwart users. There is no visual representation of progress, only 
+*Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need. Optimize search results so that they are relevant to health and medical information.*
 
-*Recommendation: Don't make the whole page blue at each major step. Keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. It would be even better to have a progress bar that slides as the user completes the informaion.
+* Within each major step in the appointment-making process, there is a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress:
+
+<p align="center">
+  <img src="appointment-request-progress.PNG"/>
+</p>
+
+![Appointment Request Progress Capture](appointment-request-progress.PNG)
+
+There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance.
+![Appointment Request Progress Capture](appointment-request-progress-2.PNG)
+
+*Recommendation: Don't make the whole page blue at each major step. Keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.
 
 #### 2. Match Between System and the Real World
 
@@ -50,10 +64,12 @@ The richness of health information and breadth of features on the Mayo Clinic we
 *Recommendation: Make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
 #### 5. Error Prevention
-* Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following pop-up dialogue box, users would likely randomly click "Yes" or "No" without regard to what the message is. 
+* Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following pop-up box, users would likely randomly click "Yes" or "No" without regard to what the message is. 
+
+![Pop-up box asking about COVID-19 vaccine](vaccine-yes-or-no.PNG)
 
 *Recommendation: Place warning message in the pop-up dialogue box, too. Use radio buttons that are labeled 'I am 
-Provide visual weight to "No" to show that that is the preferred response, or get rid of the dialogue box and make users check a box to confirm that they are NOT requesting a COVID-19 vaccine appointment before they click "Begin an online request".*
+Provide visual weight to "No" to show that that is the preferred response, or get rid of the pop-up box and make users check a box to confirm that they are NOT requesting a COVID-19 vaccine appointment before they click "Begin an online request".*
 
 #### 6. Recognition Rather Than Recall
 
@@ -62,11 +78,12 @@ Provide visual weight to "No" to show that that is the preferred response, or ge
 #### 7. Flexibility and Efficiency of Use
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter).
 
+![Homepage of Mayo Clinic showing search box](homepage.PNG)
 
 *Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.*
 
 * The user needs to select from a large list of symptoms, which is cumbersome and overwhelming.
-![Mayo Clinic Symptom Checker](mayo-clinic-symptom-checker-step-1.PNG)
+![Symptom Checker Step 1 Capture](symptom-checker-step-1.PNG)
 
 *Recommendation: Keep the list so that users can just recognize and click on recommendations, but implement a search feature at the top so that users can have the option to efficiently find the symptom they are experiencing. Also, group the symptoms into different categories to help users find the symptom they are looking for more easily.*
 
@@ -74,7 +91,9 @@ Provide visual weight to "No" to show that that is the preferred response, or ge
 
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
-* If the user clicks "Yes" in the pop-up dialogue box asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
+* If the user clicks "Yes" in the pop-up box asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
+
+![After clicking Yes in the pop-up box](clicked-yes.PNG)
 
 *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time. 
 
