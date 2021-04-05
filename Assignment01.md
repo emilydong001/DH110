@@ -63,11 +63,11 @@ The richness of health information and breadth of features on the Mayo Clinic we
   <img src="covid-19-page.PNG" alt="Mayo Clinic COVID-19 page"/>
 </p>
 
-> *Recommendation: Show navigation at the top rather than hiding it in the hamburger menu.*
+> *Recommendation: Maintain consistency with the main website so that users understand they are still in the same space. Show navigation at the top rather than hiding it in the hamburger menu.*
 
-* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website
+* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
 
-> *Recommendation: Make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
+> *Recommendation: Make sure that clicking the logo will go back to the homepage on every page. In general, make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
 #### 5. Error Prevention
 * Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following modal window, users would likely randomly click "Yes" or "No" without regard to what the message is because they are habituated to getting out of the dialog window as fast as possible.
@@ -116,7 +116,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 > *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time.*
 
 #### 10. Help and Documentation
-
+* 
 
 ### Severity Rating
 | Rating | Description |
