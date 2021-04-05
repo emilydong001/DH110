@@ -40,7 +40,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
   <img src="appointment-request-progress.PNG" alt="Appointment request progress capture" height = "300px"/>
 </p>
 
-There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance.
+* There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance.
 ![Appointment Request Progress Capture](appointment-request-progress-2.PNG)
 
 > *Recommendation: Don't make the whole page blue at each major step. Keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.*
@@ -63,7 +63,7 @@ There is also a percentage completed shown at the top left as the total progress
   <img src="covid-19-page.PNG" alt="Mayo Clinic COVID-19 page"/>
 </p>
 
-> *Recommendation: Show navigation at the top rather than hiding it in the hamburger menu. 
+> *Recommendation: Show navigation at the top rather than hiding it in the hamburger menu.*
 
 * When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website
 
@@ -77,8 +77,13 @@ There is also a percentage completed shown at the top left as the total progress
 > *Recommendation: Get rid of the modal window and provide radio buttons to get users to make a deliberate choice between "Yes" and "No". It would also be helpful to display the error message again if the user clicks "Yes", rather than force them onto a page that doesn't explain the error they made.*
 
 #### 6. Recognition Rather Than Recall
+* On the diseases and conditions page, the user must search by first letter (A-Z). This makes it difficult for users who may not remember or know the name of the disease or condition to access information about it. 
 
-> *Recommendation: Include a sample search query in the input field so that users know what they can look for.*
+<p align="center">
+  <img src="diseases-and-conditions.PNG" alt="Diseases and conditions page"/>
+</p>
+
+> *Recommendation: Guide users to the symptom checker, where they can select from a list of symptoms and generate predicted diseases and conditions associated with those symptoms. In general, Mayo Clinic should better emphasize their symptom checker feature because it can be a great resource for many people. (However, emphasize that it is necessary to check with a healthcare provider.)*
 
 #### 7. Flexibility and Efficiency of Use
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter).
@@ -97,7 +102,11 @@ There is also a percentage completed shown at the top left as the total progress
 > *Recommendation: Make it possible to access the drop-down by clicking the name of the category.
 
 #### 8. Aesthetic and Minimalist Design
-* The billing and payments page has a very cluttered design
+* The billing and payments page has a very cluttered and unappealing design, placing a lot of cognitive strain on the user. 
+
+![Billing and payments page](billing-and-payments.PNG)
+
+> *Recommendation: Clean up the page by putting more spacing between the words, using better hierarchy to organize the information, ensuring that all font sizes are consistent and large enough so that users don't have to strain themselves to read, list items out in bullet points rather than in paragraph form, and use more relevant and high-quality images for each category.*
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
 * If the user clicks "Yes" in the modal window asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
