@@ -28,8 +28,8 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * As you type in the search bar, possible options are not immediately displayed, which makes it difficult for the user to understand how the system is responding to their query (results start displaying only after 3 letters are inputted, but users expect it to be instantaneous). Furthermore, the recommended results shown are sometimes almost completely unrelated to health or medical information, which doesn't help the user.
 
 <p align="center">
-  <img src="search-query-2.PNG" alt="Search query no immediate results" width = "300px"/>
-  <img src="search-query.png" alt="Search query irrelevant results" width = "300px"/>
+  <img src="../Images/search-query-2.PNG" alt="Search query no immediate results" width = "300px"/>
+  <img src="../Images/search-query.png" alt="Search query irrelevant results" width = "300px"/>
 </p>
 
 > *Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need. Optimize search results so that they are relevant to health and medical information.*
@@ -37,7 +37,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * Within each major step in the appointment-making process, there is a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress:
 
 <p align="center">
-  <img src="appointment-request-progress.PNG" alt="Appointment request progress capture" height = "300px"/>
+  <img src="../Images/appointment-request-progress.PNG" alt="Appointment request progress capture" height = "300px"/>
 </p>
 
 * There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance.
@@ -59,8 +59,8 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * Their page for COVID-19 and vaccine information is completely different from their normal website, which could confuse users because it seems like a separate website. Also, the navigation is hidden in a hamburger menu on the top-right, which is both less discoverable and unconventional.
 
 <p align="center">
-  <img src="homepage.PNG" alt="Mayo Clinic homepage"/>
-  <img src="covid-19-page.PNG" alt="Mayo Clinic COVID-19 page"/>
+  <img src="../Images/homepage.PNG" alt="Mayo Clinic homepage"/>
+  <img src="../Images/covid-19-page.PNG" alt="Mayo Clinic COVID-19 page"/>
 </p>
 
 > *Recommendation: Maintain consistency with the main website so that users understand they are still in the same space. Show navigation at the top rather than hiding it in the hamburger menu.*
@@ -80,7 +80,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * On the diseases and conditions page, the user must search by first letter (A-Z). This makes it difficult for users who may not remember or know the name of the disease or condition to access information about it. 
 
 <p align="center">
-  <img src="diseases-and-conditions.PNG" alt="Diseases and conditions page"/>
+  <img src="../Images/diseases-and-conditions.PNG" alt="Diseases and conditions page"/>
 </p>
 
 > *Recommendation: Guide users to the symptom checker, where they can select from a list of symptoms and generate predicted diseases and conditions associated with those symptoms. In general, Mayo Clinic should better emphasize their symptom checker feature because it can be a great resource for many people. (However, emphasize that it is necessary to check with a healthcare provider.)*
@@ -88,12 +88,12 @@ The richness of health information and breadth of features on the Mayo Clinic we
 #### 7. Flexibility and Efficiency of Use
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter).
 
-![Homepage of Mayo Clinic showing search box](homepage.PNG)
+![Homepage of Mayo Clinic showing search box](../Images/homepage.PNG)
 
 > *Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.*
 
 * The user needs to select from a large list of symptoms, which is cumbersome and overwhelming.
-![Symptom Checker Step 1 Capture](symptom-checker-step-1.PNG)
+![Symptom Checker Step 1 Capture](../Images/symptom-checker-step-1.PNG)
 
 > *Recommendation: Keep the list so that users can just recognize and click on recommendations, but implement a search feature at the top so that users can have the option to efficiently find the symptom they are experiencing. Also, group the symptoms into different categories to help users find the symptom they are looking for more easily.*
 
@@ -104,14 +104,14 @@ The richness of health information and breadth of features on the Mayo Clinic we
 #### 8. Aesthetic and Minimalist Design
 * The billing and payments page has a very cluttered and unappealing design, placing a lot of cognitive strain on the user. 
 
-![Billing and payments page](billing-and-payments.PNG)
+![Billing and payments page](../Images/billing-and-payments.PNG)
 
 > *Recommendation: Clean up the page by putting more spacing between the words, using better hierarchy to organize the information, ensuring that all font sizes are consistent and large enough so that users don't have to strain themselves to read, list items out in bullet points rather than in paragraph form, and use more relevant and high-quality images for each category.*
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
 * If the user clicks "Yes" in the modal window asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
 
-![After clicking Yes in the modal window box](clicked-yes.PNG)
+![After clicking Yes in the modal window box](../Images/clicked-yes.PNG)
 
 > *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time.*
 
