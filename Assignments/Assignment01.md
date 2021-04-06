@@ -4,7 +4,7 @@
 
 Emily Dong | DH110 | Spring 2021
 
-According to the United Nations, the number of seniors (65+) is expected to double to 1.5 billion by 2050 globally. Despite seniors being one of the fastest-growing and wealthiest demographics in wealthy countries, many digital products fail to meet senior accessibility needs and have made them feel excluded from an online world that is unfriendly to those with bad eyesight, declined dexterity, and unfamiliarity with the web. For this project, I hope to demonstrate how accurate, online health information can cater to the needs of seniors so that they can maintain their well-being. By designing for their accessibility, we can also make it easier for non-seniors to access health information as well.
+According to the United Nations, the number of seniors (65+) is expected to double to 1.5 billion by 2050 globally. Despite seniors being one of the fastest-growing and wealthiest demographics in wealthy countries, many digital products fail to meet senior accessibility needs and have made them feel excluded from an online world that is unfriendly to those with bad eyesight, declined dexterity, and unfamiliarity with the web. In particular, health is a major concern among seniors, and we should ensure that information is accessible to them. For this project, I hope to demonstrate how we can improve user (patient) experiences on websites with health, healthcare, and patient information so that seniors can maintain their well-being. Additionally, by designing for their accessibility, we are designing for everyone's accessibility.
 
 ### Severity Ratings for Usability Problems by [Nielson Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
 
@@ -46,13 +46,13 @@ The richness of health information and breadth of features on the Mayo Clinic we
 > *Recommendation: Don't make the whole page blue at each major step; keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.*
 
 #### 2. Match Between System and the Real World
-* The placeholder text of the search bar is "Search Mayo Clinic", which seems like a missed opportunity to guide users in the right direction
+* Although it's not a big issue, the placeholder text of the search bar is "Search Mayo Clinic", which seems like a missed opportunity to guide users in the right direction or express something about the brand, especially since this is a very large website.
 
 <p align="center">
   <img src="../search-bar.PNG" alt="Homepage search bar" width = "300px"/>
 </p>
 
-*Recommendation: Consider modifying the placeholder text so that it guides users in the right direction, provides some information, or expresses something about the brand. Use microcropy that would be most helpful for users' existing habits.* 
+*Recommendation: Consider modifying the placeholder text based on what would be most helpful for users' existing habits. Perhaps something like 'Search health topics, conditions, doctors' or whatever is most relevant to most users.*
 
 #### 3. User Control and Freedom
 * After searching for something in the search bar, the user's query is erased. If the user doesn't find the information they were looking for, which happens often (especially since the recommended results don't immediately appear and may be irrelevant), they have to retype their query over again.
@@ -69,7 +69,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 > *Recommendation: Maintain consistency with the main website so that users understand they are still in the same space. Show navigation at the top rather than hiding it in the hamburger menu.*
 
-* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. I observed the same pattern across random pages of the website. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
+* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. I observed the same pattern across random pages of the website (including the Trouble Signing Up? page for account creation). The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
 
 > *Recommendation: Make sure that clicking the logo will go back to the homepage on every page. In general, make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
@@ -150,7 +150,56 @@ The richness of health information and breadth of features on the Mayo Clinic we
 | 2 | Aesthetic & Minamalist Design; Help Users Recognize, Diagnose, and Recover From Errors; Error Prevention |
 | 3 | Visibility of System Status, Consistency and Standards, Recognition Rather Than Recall; Flexibility and Efficiency of Use |
 
-**Website 2: 
+## Website 2: [Chinatown Service Center (CSC)](https://www.cscla.org/)
 
+### About the Project
+Chinatown Service Center (CSC) is a community-based Chinese-American health and human services organization that advocates for and provides services to immigrants and other communities. CSC's resources, including a Community Health Center that provides comprehensive healthcare, dental services, and behavioral services, are available in various Chinese dialects like Cantonese, Mandarin, Toishan, and Chiu Jou, as well as other languages like Vietnamese and Spanish.
 
+My goal is to make their website much more usable, especially for primary users of CSC's services, including low-income, non-English speaking, and elderly users.
 
+### Heurisitic Evaluation
+
+#### 1. Visibility of System Status
+* When a user hovers over the navigation menu, only the "Home" button changes color. The rest do not provide color feedback, and simply displays the menu. Furthermore, it takes awhile to load the menu at times. Users would be have difficulty using the navigation bar.
+
+<p align="center">
+  <img src="../Images/nav-services.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="300px"/>
+</p>
+
+#### 2. Match Between System and the Real World
+
+#### 3. User Control and Freedom
+* The image carousel on the homepage moves very slowly and also responds to clicks very slowly, so users are surprised when they actually animate. It can be frustrating if users want to look through the gallery.
+* The image carousel on the Community Health Center page auto-forwards and moves much too quickly, to the point that clicking the small arrow controls doesn't allow the user to view the image they want to see (unless they realize they can click the image to see it in full screen), which is very frustrating. The carousel looks almost like an advertisement, which means it will likely be ignored.
+
+*Recommendation: Test users to see what the right timing for carousels would be. There should be enough time for users to read the text and process the information on each image. Use bigger arrows so that users can easily click them, and make sure the carousel is responsive to clicks. Add a visualindicator to show where the user is in the image gallery.*
+
+#### 4. Consistency and Standards
+
+#### 5. Error Prevention
+
+#### 6. Recognition Rather Than Recall
+
+#### 7. Flexibility and Efficiency of Use
+
+#### 8. Aesthetics and Minimalist Design
+* Throughout the website, we see an unappealing interface due to incorrect placement of features, inconsistent fonts and other design aspects, low-quality images, cluttered and conflicting elements, and web develepor mistakes. Altogether, the website is confusing for any user and lowers the credibility of the organization. The Community Health Center homepage, in particular, demonstrates this well:
+
+![CSC Community Health Center homepage](../Images/community-health-center-homepage.PNG)
+
+*Recommendation: Firstly, we need to fix the web developer mistakes so that the features are at least visible. For instance, the language switch needs to be fully visible so that users know they can switch the language of the website. Next, de-clutter the website by reorganizing the information presented. For example, it is unnecessary to place the Community Health Center description at the beginning of every tab's page; use that real estate for the menu itself. Lastly, make sure that a design guideline is used so that font sizes, spacing, and colors are appropriate and consistent throughout.*
+
+#### 9. Help Users Recognize, Diagnose, and Recover From Errors
+
+#### 10. Help and Documentation
+
+### Severity Rating
+| Rating | Description |
+|---|---|
+| 1 |  |
+| 2 | Visibility of System Status |
+| 3 | User Control & Freedom; Aesthetic & Minamalist Design |
+
+| 1 | Match Between System and the Real World; Help and Documentation |
+| 2 | Help Users Recognize, Diagnose, and Recover From Errors; Error Prevention |
+| 3 | Consistency and Standards, Recognition Rather Than Recall; Flexibility and Efficiency of Use |
