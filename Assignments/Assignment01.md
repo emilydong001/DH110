@@ -41,19 +41,23 @@ The richness of health information and breadth of features on the Mayo Clinic we
 </p>
 
 * There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance.
-![Appointment Request Progress Capture](appointment-request-progress-2.PNG)
+![Appointment Request Progress Capture](../Images/appointment-request-progress-2.PNG)
 
-> *Recommendation: Don't make the whole page blue at each major step. Keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.*
+> *Recommendation: Don't make the whole page blue at each major step; keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.*
 
 #### 2. Match Between System and the Real World
-* 
+* The placeholder text of the search bar is "Search Mayo Clinic", which seems like a missed opportunity to guide users in the right direction
 
-*Recommendation:* 
+<p align="center">
+  <img src="../search-bar.PNG" alt="Homepage search bar" width = "300px"/>
+</p>
+
+*Recommendation: Consider modifying the placeholder text so that it guides users in the right direction, provides some information, or expresses something about the brand. Use microcropy that would be most helpful for users' existing habits.* 
 
 #### 3. User Control and Freedom
-* 
+* After searching for something in the search bar, the user's query is erased. If the user doesn't find the information they were looking for, which happens often (especially since the recommended results don't immediately appear and may be irrelevant), they have to retype their query over again.
 
-> *Recommendation:*
+> *Recommendation: Don't erase the user's query after they hit Search so that they can slightly modify their query if necessary.*
 
 #### 4. Consistency and Standards
 * Their page for COVID-19 and vaccine information is completely different from their normal website, which could confuse users because it seems like a separate website. Also, the navigation is hidden in a hamburger menu on the top-right, which is both less discoverable and unconventional.
@@ -65,22 +69,24 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 > *Recommendation: Maintain consistency with the main website so that users understand they are still in the same space. Show navigation at the top rather than hiding it in the hamburger menu.*
 
-* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
+* When you click Request Appointment, you cannot go back to the homepage by clicking the logo on the top-left corner, which can be frustrating for many users who expect that they can orient to the homepage by clicking the logo. I observed the same pattern across random pages of the website. The logo at the top left corner is probably the most common design pattern and needs to be upheld throughout the website.
 
 > *Recommendation: Make sure that clicking the logo will go back to the homepage on every page. In general, make sure every functionality is consistent throughout the website so that users don't get 'lost' on a certain page.*
 
 #### 5. Error Prevention
 * Mayo Clinic is currently not accepting online requests for COVID-19 vaccine appointments. Although they provide a warning message above the button to request an appointment, users can easily skip this message. In the following modal window, users would likely randomly click "Yes" or "No" without regard to what the message is because they are habituated to getting out of the dialog window as fast as possible.
 
-![Modal window asking about COVID-19 vaccine](vaccine-yes-or-no.PNG)
+<p align="center">
+  <img src="../Images/appointment-modal-window.PNG" alt="Modal window asking about COVID-19 vaccine" width="700px"/>
+</p>
 
 > *Recommendation: Get rid of the modal window and provide radio buttons to get users to make a deliberate choice between "Yes" and "No". It would also be helpful to display the error message again if the user clicks "Yes", rather than force them onto a page that doesn't explain the error they made.*
 
 #### 6. Recognition Rather Than Recall
-* On the diseases and conditions page, the user must search by first letter (A-Z). This makes it difficult for users who may not remember or know the name of the disease or condition to access information about it. 
+* On the health information page, the user must search by first letter (A-Z). This makes it difficult for users who may not know or remember the name of the disease or condition to access information about it. 
 
 <p align="center">
-  <img src="../Images/diseases-and-conditions.PNG" alt="Diseases and conditions page"/>
+  <img src="../Images/diseases-and-conditions.PNG" alt="Diseases and conditions page" width="500px"/>
 </p>
 
 > *Recommendation: Guide users to the symptom checker, where they can select from a list of symptoms and generate predicted diseases and conditions associated with those symptoms. In general, Mayo Clinic should better emphasize their symptom checker feature because it can be a great resource for many people. (However, emphasize that it is necessary to check with a healthcare provider.)*
@@ -90,7 +96,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 ![Homepage of Mayo Clinic showing search box](../Images/homepage.PNG)
 
-> *Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked.*
+> *Recommendation: Create a separate button for searching that includes the magnifying glass so that the user easily recognizes that it can be clicked to Search.*
 
 * The user needs to select from a large list of symptoms, which is cumbersome and overwhelming.
 ![Symptom Checker Step 1 Capture](../Images/symptom-checker-step-1.PNG)
@@ -99,31 +105,50 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 * Under Billing, clicking the name of a category doesn't display the drop-down menu, but rather takes you to another page with the same categories, just displayed in a different format, which can be disorienting. The user must click the + sign to get the drop-down menu, which requires dexterity and is therefore less accessible for seniors.
 
-> *Recommendation: Make it possible to access the drop-down by clicking the name of the category.
+> *Recommendation: Make it possible to access the drop-down by clicking the name of the category.*
 
 #### 8. Aesthetic and Minimalist Design
+* Because Mayo Clinic's website is very large, it can be difficult to consolidate all the information while ensuring the website is usable. However, there are some unnecessary elements that visually clutter the website. For instance, in the first dropdown of the navigation menu, there are many different links that are somewhat unnecessary - Clinical Trials is already under "Research" (it also makes more sense there), and "Digital Health Care" is almost the same thing as "Patient Online Services" to users (they only need to include one of these).
+
+<p align="center">
+  <img src="../Images/nav-care-at-mayo-clinic.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="300px"/>
+  <img src="../Images/nav-research.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="300px"/>
+</p>
+
+> *Recommendation: Show only what is necessary in the navigation menu, and make sure the links are relevant to each category.*
+
 * The billing and payments page has a very cluttered and unappealing design, placing a lot of cognitive strain on the user. 
 
 ![Billing and payments page](../Images/billing-and-payments.PNG)
 
-> *Recommendation: Clean up the page by putting more spacing between the words, using better hierarchy to organize the information, ensuring that all font sizes are consistent and large enough so that users don't have to strain themselves to read, list items out in bullet points rather than in paragraph form, and use more relevant and high-quality images for each category.*
+> *Recommendation: Clean up the page by putting more spacing between the words, using better hierarchy to organize the information, listing items out in bullet points rather than in paragraph form, and using more relevant and high-quality images for each category.*
+
+* Lastly, the font size on the homepage navigation (and in other random locations throughout the website is small and faint, making it inaccessible for individuals with visual impairments. 
+
+> *Recommendation: Increase font sizes and increase contrast of the fonts (in this case, make them darker) to make them readable for seniors and other visually impaired individuals. Create a design guideline to ensure that all font sizes and styles are consistent throughout the website.*
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
-* If the user clicks "Yes" in the modal window asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially an About page for COVID-19 vaccines.
+* If the user clicks "Yes" in the modal window asking if they are requesting a COVID-19 vaccine, they are directed to another page that doesn't immediately explain why they weren't directed to the appointment-making process. Instead, the page they land on is essentially a general About page for COVID-19 vaccines.
 
 ![After clicking Yes in the modal window box](../Images/clicked-yes.PNG)
 
 > *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time.*
 
 #### 10. Help and Documentation
-* 
+* If the user is on the help page, they want detailed information relevant to them. On Mayo Clinic's FAQ page on making appointments, there is simply a huge wall of text that the user must scroll through to find a question they *might* be looking for.
+
+<p align="center">
+  <img src="../Images/appointment-faq.PNG" alt="Appointment FAQ page" width="500px"/>
+</p>
+
+> *Recommendation: Hide the text under each question to make it easy for users to scan through the possible questions and choose only content they are interested in. Organize the questions in a logical way. Include a downward arrow next to each question to show that information about that question can be found if they click each title. Use bullet points and numbered lists whenever appropriate.*
 
 ### Severity Rating
 | Rating | Description |
 |---|---|
-| 1 |  |
-| 2 |  |
-| 3 | Flexibility and Efficiency of Use |
+| 1 | Match Between System and the Real World; User Control & Freedom; Help and Documentation |
+| 2 | Aesthetic & Minamalist Design; Help Users Recognize, Diagnose, and Recover From Errors; Error Prevention |
+| 3 | Visibility of System Status, Consistency and Standards, Recognition Rather Than Recall; Flexibility and Efficiency of Use |
 
 **Website 2: 
 
