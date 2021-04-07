@@ -1,4 +1,4 @@
-# Accessible Delivery of Health and Healthcare Information to Seniors
+# Accessible Delivery of Health & Healthcare Information to Seniors
 
 ## Assignment 1: Heuristic Evaluation
 
