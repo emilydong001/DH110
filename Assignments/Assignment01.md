@@ -113,8 +113,8 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * Because Mayo Clinic's website is very large, it can be difficult to consolidate all the information while ensuring the website is usable. However, there are some unnecessary elements that visually clutter the website. For instance, in the first dropdown of the navigation menu, there are many different links that are somewhat unnecessary - Clinical Trials is already under "Research" (it also makes more sense there), and "Digital Health Care" is almost the same thing as "Patient Online Services" to users (they only need to include one of these). (3)
 
 <p align="center">
-  <img src="../Images/nav-care-at-mayo-clinic.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="300px"/>
-  <img src="../Images/nav-research.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="300px"/>
+  <img src="../Images/nav-care-at-mayo-clinic.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="250px"/>
+  <img src="../Images/nav-research.PNG" alt="Navigation menu (Care at Mayo Clinic)" width="250px"/>
 </p>
 
 > *Recommendation: Show only what is necessary in the navigation menu, and make sure the links are relevant to each category.*
@@ -164,8 +164,8 @@ My goal is to make their website much more usable, especially for primary users 
 * When a user hovers over the top navigation menu, only the "Home" button changes color. The rest of the menu items do not provide color feedback, and simply displays the dropdown for each. Furthermore, it takes a while to load each dropdown at times. Users would have difficulty understanding whether the website is responding to their movement or clicks. There is, however, a color change to help the user recognize the page they are currently on. (3)
 
 <p align="center">
-  <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services"/>
-</p>
+  <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services" width="350px"/>
+</p>f
 
 > *Recommendation: Make sure that there is some kind of feedback (e.g. color change) when the cursor hovers over each menu item.*
 
@@ -197,8 +197,9 @@ My goal is to make their website much more usable, especially for primary users 
 * Phone numbers change based on which tab of the Community Health Center page the user is on. However, it is difficult to recognize this because these phone numbers aren't displayed below the tabs. It is easy for users to call the wrong number or send an email to the wrong email address. (3)
 
 <p align="center">
-  <img src="../Images/behavioral-health-contact.PNG" alt="Contact information for Behavioral Health" width="300px"/>
-  <img src="../Images/dental-clinic-contact.PNG" alt="Contact information for Dental Clinic" width="300px"/>
+  <img src="../Images/behavioral-health-contact.PNG" alt="Contact information for Behavioral Health" width="500px"/>
+   
+  <img src="../Images/dental-clinic-contact.PNG" alt="Contact information for Dental Clinic" width="500px"/>
 </p>
 
 > *Recommendation: Put the tabs above the content so that users know what information is relevant to which department. Put the contact information in a consistent and easy-to-find location for each tap. Alternatively, direct users to a contact page where they can easily find where they should contact.*
@@ -207,7 +208,7 @@ My goal is to make their website much more usable, especially for primary users 
 * When you hover over the top navigation menu, there is no indication of which menu item's dropdown is being displayed, forcing users to recall which of the menu items they were looking at. This also makes it more difficult for users to remember how they got to a certain page in the future. (2)
 
 <p align="center">
-  <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services" width="300px"/>
+  <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services" width="350px"/>
 </p>
 
 > *Recommendation: Connect the dropdown box with the menu item title to show that the dropdown is under that header.*
@@ -220,13 +221,13 @@ My goal is to make their website much more usable, especially for primary users 
 * On the homepage, the first image is about free COVID-19 vaccines. The image, however, is not clickable and does not lead to another page with the details, as one would expect. Instead, the user must look through the website to find the full image/pdf. (3)
 
 <p align="center">
-  <img src="../Images/csc-homepage.PNG" alt="CSC homepage" width="500px"/>
+  <img src="../Images/csc-homepage.PNG" alt="CSC homepage"/>
 </p>
 
 * I was able to find it under "Upcoming Events" at the bottom of the homepage, where users are unlikely to scroll to. Even then, the information was elusive - the carousel constantly autorotates through random images/pdfs of different events, and the only way to navigate through them is through the left and right arrow keys. Furthermore, although there is an Events category under "More" in the top navigation menu, it is not clickable. (3)
 
 <p align="center">
-  <img src="../Images/upcoming-events-2.PNG" alt="Upcoming Events carousel with free vaccine event information" width="500px"/>
+  <img src="../Images/upcoming-events-2.PNG" alt="Upcoming Events carousel with free vaccine event information"/>
 </p>
 
 > *Recommendation: Because these free events are an integral part of CSC services, it makes sense to put a working Events link in the top navigation menu. On the Events page, separate upcoming events from past events. If possible, provide the information directly on the page rather than in image or pdf format so that users don't have to open another tab or window to view the information. Organize events by category, clearly provide dates and times, show relevant pictures.*
