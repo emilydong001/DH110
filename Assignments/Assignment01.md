@@ -152,7 +152,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 ![After clicking Yes in the modal window box](../Images/clicked-yes.PNG)
 
-> *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time.*
+> *Recommendation: Immediately explain why they can't make an appointment for COVID-19 vaccines at the time. Make sure the message is visible (e.g. in red and/or bold).*
 
 #### 10. Help and Documentation
 * If the user is on the help page, they want detailed information relevant to them. On Mayo Clinic's FAQ page on making appointments, there is simply a huge wall of text that the user must scroll through to find a question they *might* be looking for. (2)
