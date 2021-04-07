@@ -6,7 +6,7 @@ Emily Dong | DH110 | Spring 2021
 
 According to the United Nations, the number of seniors (65+) is expected to double to 1.5 billion by 2050 globally. Despite seniors being one of the fastest-growing and wealthiest demographics in wealthy countries, many digital products fail to meet senior accessibility needs and have made them feel excluded from an online world that is unfriendly to those with bad eyesight, declined dexterity, and unfamiliarity with the web. In particular, health is a major concern among seniors, and we should ensure that information is accessible to them. For this project, I hope to demonstrate how we can improve user (patient) experiences on websites with health, healthcare, and patient information so that seniors can maintain their well-being. Additionally, by designing for their accessibility, we are designing for everyone's accessibility.
 
-### Severity Ratings for Usability Problems by [Nielson Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+### Severity Ratings for Usability Problems by [Nielsen Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
 
 The following rating scale can be used to evaluate the severity of usability issues:
 | Rating | Description |
@@ -20,7 +20,7 @@ Ratings are displayed in parentheses after each usability issue.
 ## Website 1: [Mayo Clinic](https://www.mayoclinic.org/)
 
 ### About the Project
-Mayo Clinic is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
+[Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
 
 The richness of health information and breadth of features on the Mayo Clinic website can be both valuable and overwhelming. My goal is to preserve the value while streamlining the user's ability to navigate throughout the website.
 
@@ -36,7 +36,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 > *Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need. Optimize search results so that they are relevant to health and medical information.*
 
-* Within each major step in the appointment-making process, there is a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress:
+* Within each major step in the appointment-making process, there are a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress:
 
 <p align="center">
   <img src="../Images/appointment-request-progress.PNG" alt="Appointment request progress capture" height = "300px"/>
@@ -51,7 +51,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 * Although it's not a big issue, the placeholder text of the search bar is "Search Mayo Clinic", which seems like a missed opportunity to guide users in the right direction or express something about the brand, especially since this is a very large website. (1)
 
 <p align="center">
-  <img src="../search-bar.PNG" alt="Homepage search bar" width = "300px"/>
+  <img src="../Images/search-bar.PNG" alt="Homepage search bar" width = "300px"/>
 </p>
 
 > *Recommendation: Consider modifying the placeholder text based on what would be most helpful for users' existing habits. Perhaps something like 'Search health topics, conditions, doctors' or whatever is most relevant to most users.*
@@ -82,7 +82,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
   <img src="../Images/appointment-modal-window.PNG" alt="Modal window asking about COVID-19 vaccine" width="700px"/>
 </p>
 
-> *Recommendation: Get rid of the modal window and provide radio buttons to get users to make a deliberate choice between "Yes" and "No". It would also be helpfu to display the error message again if the user clicks "Yes", rather than force them onto a page that doesn't explain the error they made.*
+> *Recommendation: Get rid of the modal window and provide radio buttons to get users to make a deliberate choice between "Yes" and "No". It would also be helpful to display the error message again if the user clicks "Yes" rather than force them onto a page that doesn't explain the error they made.*
 
 #### 6. Recognition Rather Than Recall
 * On the health information page, the user must search by first letter (A-Z). This makes it difficult for users who may not know or remember the name of the disease or condition to access information about it. (2)
@@ -150,17 +150,18 @@ The richness of health information and breadth of features on the Mayo Clinic we
 The Mayo Clinic website is very large and contains a lot of information, so the main usability issues involve organizing the content and navigation in a way that is understandable for users. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
 
 
+
 ## Website 2: [Chinatown Service Center (CSC)](https://www.cscla.org/)
 
 ### About the Project
-Chinatown Service Center (CSC) is a community-based Chinese-American health and human services organization that advocates for and provides services to immigrants and other communities. CSC's resources, including a Community Health Center that provides comprehensive healthcare, dental services, and behavioral services, are available in various Chinese dialects like Cantonese, Mandarin, Toishan, and Chiu Jou, as well as other languages like Vietnamese and Spanish.
+[Chinatown Service Center (CSC)](https://www.cscla.org/) is a community-based Chinese-American health and human services organization that advocates for and provides services to immigrants and other communities. CSC's resources, including a Community Health Center that provides comprehensive healthcare, dental services, and behavioral services, are available in various Chinese dialects like Cantonese, Mandarin, Toishan, and Chiu Jou, as well as other languages like Vietnamese and Spanish.
 
 My goal is to make their website much more usable, especially for primary users of CSC's services, including low-income, non-English speaking, and elderly users.
 
 ### Heuristic Evaluation
 
 #### 1. Visibility of System Status
-* When a user hovers over the top navigation menu, only the "Home" button changes color. The rest of the menu items do not provide color feedback, and simply displays the dropdown for each. Furthermore, it takes awhile to load each dropdown at times. Users would have difficulty understanding whether the website is responding to their movement or clicks. There is, however, a color change to help the user recognize the page they are currently on. (3)
+* When a user hovers over the top navigation menu, only the "Home" button changes color. The rest of the menu items do not provide color feedback, and simply displays the dropdown for each. Furthermore, it takes a while to load each dropdown at times. Users would have difficulty understanding whether the website is responding to their movement or clicks. There is, however, a color change to help the user recognize the page they are currently on. (3)
 
 <p align="center">
   <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services"/>
@@ -169,7 +170,7 @@ My goal is to make their website much more usable, especially for primary users 
 > *Recommendation: Make sure that there is some kind of feedback (e.g. color change) when the cursor hovers over each menu item.*
 
 #### 2. Match Between System and the Real World
-* Some of icons for the Community Health Center page do not entirely match our perception for each category. The happy face doesn't really reflect Behavioral Health and the Medical Clinic icon just looks like a house (the medical cross is very small). The tooth is also difficult to see when Dental Clinic is selected (and inconsistent with the other icons). (1)
+* Some of the icons for the Community Health Center page do not entirely match our perception for each category. The happy face doesn't really reflect Behavioral Health and the Medical Clinic icon just looks like a house (the medical cross is very small). The tooth is also difficult to see when Dental Clinic is selected (and inconsistent with the other icons). (1)
 
 <p align="center">
   <img src="../Images/community-health-center-icons.PNG" alt="Community Health Center icons"/>
@@ -190,7 +191,7 @@ My goal is to make their website much more usable, especially for primary users 
   <img src="../Images/nav-bar.PNG" alt="Top Navigation Menu"/>
 </p>
 
-> *Recommendation: Reorganize the top navigation so that it complies with standards. For example, Hours & Locations can go under "About", Gala 2020 does not need to be displayed, and Vita 2021 should be kept under services (and renamed Free Tax Prep or something recognizable, since not everyone will know what VITA is).*
+> *Recommendation: Reorganize the top navigation so that it complies with standards. For example, Hours & Locations can go under "About", Gala 2020 does not need to be displayed, and Vita 2021 should be kept under services (and should be renamed Free Tax Prep or something recognizable, since not everyone will know what VITA is).*
 
 #### 5. Error Prevention
 * Phone numbers change based on which tab of the Community Health Center page the user is on. However, it is difficult to recognize this because these phone numbers aren't displayed below the tabs. It is easy for users to call the wrong number or send an email to the wrong email address. (3)
@@ -200,10 +201,10 @@ My goal is to make their website much more usable, especially for primary users 
   <img src="../Images/dental-clinic-contact.PNG" alt="Contact information for Dental Clinic" width="300px"/>
 </p>
 
-*Recommendation: Put the tabs above the content so that users know what information is relevant to which department. Put the contact information in a consistent and easy-to-find location for each tap. Alternatively, direct users to a contact page where they can easily find where they should contact.*
+> *Recommendation: Put the tabs above the content so that users know what information is relevant to which department. Put the contact information in a consistent and easy-to-find location for each tap. Alternatively, direct users to a contact page where they can easily find where they should contact.*
 
 #### 6. Recognition Rather Than Recall
-* When you hover over the top navigation menu, there is no indication of which menu items's dropdown is being displayed, forcing users to recall which of the menu items they were looking at. This also makes it more difficult for users to remember how they got to a certain page in the future. (2)
+* When you hover over the top navigation menu, there is no indication of which menu item's dropdown is being displayed, forcing users to recall which of the menu items they were looking at. This also makes it more difficult for users to remember how they got to a certain page in the future. (2)
 
 <p align="center">
   <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services" width="300px"/>
@@ -222,16 +223,16 @@ My goal is to make their website much more usable, especially for primary users 
   <img src="../Images/csc-homepage.PNG" alt="CSC homepage" width="500px"/>
 </p>
 
-* I was able to find it under "Upcoming Events" at the bottom of the homepage, where users are unlikely to scroll to. Even then, the information was elusive - the carousel constantly autorotates through random images/pdf's of different events, and the only way to navigate through them is through the left and right arrow keys. Furthermore, although there is an Events category under "More" in the top navigation menu, it is not clickable. (3)
+* I was able to find it under "Upcoming Events" at the bottom of the homepage, where users are unlikely to scroll to. Even then, the information was elusive - the carousel constantly autorotates through random images/pdfs of different events, and the only way to navigate through them is through the left and right arrow keys. Furthermore, although there is an Events category under "More" in the top navigation menu, it is not clickable. (3)
 
 <p align="center">
   <img src="../Images/upcoming-events-2.PNG" alt="Upcoming Events carousel with free vaccine event information" width="500px"/>
 </p>
 
-> *Recommendation: Because these free events are an integral part of CSC services, it makes sense to put a working Events link in the top navigation menu. On the Events page, separate upcaming events from past events. If possible, provide the information directly on the page rather than in image or pdf format so that users don't have to open another tab or window to view the information. Organize events by category, clearly provide dates and times, show relevant pictures.*
+> *Recommendation: Because these free events are an integral part of CSC services, it makes sense to put a working Events link in the top navigation menu. On the Events page, separate upcoming events from past events. If possible, provide the information directly on the page rather than in image or pdf format so that users don't have to open another tab or window to view the information. Organize events by category, clearly provide dates and times, show relevant pictures.*
 
 #### 8. Aesthetics and Minimalist Design
-* Throughout the website, we see an unappealing interface due to incorrect placement of features, inconsistent fonts, colors, and other design aspects, low-quality images, cluttered and conflicting elements, and web develepor mistakes. Altogether, the website is confusing for any user and lowers the credibility of the organization. The Community Health Center homepage, in particular, demonstrates this well. (3)
+* Throughout the website, we see an unappealing interface due to incorrect placement of features, inconsistent fonts, colors, and other design aspects, low-quality images, cluttered and conflicting elements, and web developer mistakes. Altogether, the website is confusing for any user and lowers the credibility of the organization. The Community Health Center homepage, in particular, demonstrates this well. (3)
 
 ![CSC Community Health Center homepage](../Images/community-health-center-homepage.PNG)
 
@@ -245,7 +246,7 @@ My goal is to make their website much more usable, especially for primary users 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
 * When the wrong account information is entered on the patient portal, there is no indication of whether the username or password was incorrect (or both). (1)
 
-> *Recommendation: Tell users which field is incorrect so that they can only fix what's needed. 
+> *Recommendation: Tell users which field is incorrect so that they can only fix what's needed.*
 
 #### 10. Help and Documentation
 * Virtually no help or documentation is provided on the website; the email and phone number are prominently displayed, so it is assumed that people would simply call or email to make an appointment. Important information (such as what insurance they accept, phone numbers for different departments) are randomly dispersed throughout the website. (3)
