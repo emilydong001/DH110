@@ -163,7 +163,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 > *Recommendation: Hide the text under each question to make it easy for users to scan through the possible questions and choose only content they are interested in. Organize the questions in a logical way. Include a downward arrow next to each question to show that information about that question can be found if they click each title. Use bullet points and numbered lists whenever appropriate.*
 
-### Conclusion
+### Overall Assessment
 
 The Mayo Clinic website is very large and contains a lot of information, so the main usability issues involve organizing the content and navigation in a way that is understandable for users. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
 
@@ -274,7 +274,7 @@ My goal is to make their website much more usable, especially for primary users 
 
 > *Recommendation: Consolidate important general information on one page so that users are not completely confused. Provide a link to the contact page instead of randomly displaying the phone number and email. Provide more guidance to users on each page; there are many different departments, phone numbers, and locations. For example, who, where, and when exactly should a person contact if they are a new patient?*
 
-### Conclusion
+### Overall Assessment
 
 A lot of work needs to be done in many areas, but the areas to focus on first are probably flexibility & efficiency of use and aesthetics & minimalist design. Their resources are invaluable to many low-income, immigrant families and their seniors, so being able to access that information easily should be prioritized. Also, an important feature to fix first is the visibility of the language switch, since many of their users may be Chinese monolinguals. The website is very harsh to look at in general, making it very difficult to use and makes CSC look unreliable. An update on aesthetics should therefore be one of their next steps.
 
