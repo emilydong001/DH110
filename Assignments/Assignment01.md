@@ -1,12 +1,30 @@
-# Accessible Delivery of Health and Healthcare Information to Seniors
+# Accessible Delivery of Health Healthcare Information to Seniors
 
 ## Assignment 1: Heuristic Evaluation
 
 Emily Dong | DH110 | Spring 2021
 
+### About the project
+
 According to the United Nations, the number of seniors (65+) is expected to double to 1.5 billion by 2050 globally. Despite seniors being one of the fastest-growing and wealthiest demographics in wealthy countries, many digital products fail to meet senior accessibility needs and have made them feel excluded from an online world that is unfriendly to those with bad eyesight, declined dexterity, and unfamiliarity with the web. In particular, health is a major concern among seniors, and we should ensure that information is accessible to them. For this project, I hope to demonstrate how we can improve user (patient) experiences on websites with health, healthcare, and patient information so that seniors can maintain their well-being. Additionally, by designing for their accessibility, we are designing for everyone's accessibility.
 
-### Severity Ratings for Usability Problems by [Nielsen Norman Group](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+### Jakob Nielson's [10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) Explained
+
+| Number | Heuristic | Description |
+|---|---|---|
+| 1 | Visibility of System Status | Users should always be informed about what is going on and should be given appropriate feedback to their actions |
+| 2 | Match Between System and the Real World | Use concepts and language that are familiar and logical to the user |
+| 3 | User Control and Freedom | Allow users to make mistakes; give them options to undo and redo tasks |
+| 4 | Consistency and Standards | Follow conventions and make sure design is consistent across the platform |
+| 5 | Error Prevention | Get rid of error-prone conditions and provide users with safety nets for high-cost errors |
+| 6 | Recognition Rather Than Recall | Minimize user's memory load by giving them suggestions and help in context |
+| 7 | Flexibility and Efficiency of Use | Provide multiple ways to perform a task to make the platform accessible to all users |
+| 8 | Aesthetic and Minimalist Design | Provide only relevant content and features |
+| 9 | Help Users Recognize, Diagnose, and Recover From Errors | Tell users what the problem is and provide suggestions to fix it |
+| 10 | Help and Documentation | Supply users with extra help to complete their tasks |
+
+
+### [Severity Ratings](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/) for Usability Problems by Nielsen Norman Group
 
 The following rating scale can be used to evaluate the severity of usability issues:
 | Rating | Description |
@@ -19,7 +37,7 @@ Ratings are displayed in parentheses after each usability issue.
 
 ## Website 1: [Mayo Clinic](https://www.mayoclinic.org/)
 
-### About the Project
+### About
 [Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
 
 The richness of health information and breadth of features on the Mayo Clinic website can be both valuable and overwhelming. My goal is to preserve the value while streamlining the user's ability to navigate throughout the website.
@@ -153,7 +171,7 @@ The Mayo Clinic website is very large and contains a lot of information, so the 
 
 ## Website 2: [Chinatown Service Center (CSC)](https://www.cscla.org/)
 
-### About the Project
+### About
 [Chinatown Service Center (CSC)](https://www.cscla.org/) is a community-based Chinese-American health and human services organization that advocates for and provides services to immigrants and other communities. CSC's resources, including a Community Health Center that provides comprehensive healthcare, dental services, and behavioral services, are available in various Chinese dialects like Cantonese, Mandarin, Toishan, and Chiu Jou, as well as other languages like Vietnamese and Spanish.
 
 My goal is to make their website much more usable, especially for primary users of CSC's services, including low-income, non-English speaking, and elderly users.
