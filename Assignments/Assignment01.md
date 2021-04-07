@@ -165,7 +165,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 ### Overall Assessment
 
-The Mayo Clinic website is very large and contains a lot of information, so the main usability issues involve organizing the content and navigation in a way that is understandable for users, especially in terms of consistency & standards, flexibility & efficiency of Use, and aesthetics & minimalist design. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
+The Mayo Clinic website is very large and contains a lot of information, so the main usability issues involve organizing the content and navigation in a way that is understandable for users, especially in terms of consistency & standards, flexibility & efficiency of use, and aesthetics & minimalist design. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
 
 
 
