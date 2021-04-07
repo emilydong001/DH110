@@ -183,7 +183,7 @@ My goal is to make their website much more usable, especially for primary users 
 
 <p align="center">
   <img src="../Images/nav-services.PNG" alt="Navigation Menu, Services" width="350px"/>
-</p>f
+</p>
 
 > *Recommendation: Make sure that there is some kind of feedback (e.g. color change) when the cursor hovers over each menu item.*
 
@@ -215,9 +215,9 @@ My goal is to make their website much more usable, especially for primary users 
 * Phone numbers change based on which tab of the Community Health Center page the user is on. However, it is difficult to recognize this because these phone numbers aren't displayed below the tabs. It is easy for users to call the wrong number or send an email to the wrong email address. (3)
 
 <p align="center">
-  <img src="../Images/behavioral-health-contact.PNG" alt="Contact information for Behavioral Health" width="500px"/>
-   
-  <img src="../Images/dental-clinic-contact.PNG" alt="Contact information for Dental Clinic" width="500px"/>
+  <img src="../Images/behavioral-health-contact.PNG" alt="Contact information for Behavioral Health" width="550px"/>
+  
+  <img src="../Images/dental-clinic-contact.PNG" alt="Contact information for Dental Clinic" width="550px"/>
 </p>
 
 > *Recommendation: Put the tabs above the content so that users know what information is relevant to which department. Put the contact information in a consistent and easy-to-find location for each tap. Alternatively, direct users to a contact page where they can easily find where they should contact.*
