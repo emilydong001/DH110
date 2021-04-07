@@ -1,4 +1,4 @@
-# Appropriately Delivering Health Information to Seniors
+# Accessible Delivery of Health and Healthcare Information to Seniors
 
 ## Assignment 1: Heuristic Evaluation
 
@@ -36,13 +36,13 @@ The richness of health information and breadth of features on the Mayo Clinic we
 
 > *Recommendation: Display results as the user types so that the user stays engaged, making it more likely they will continue to explore the site to find the information they need. Optimize search results so that they are relevant to health and medical information.*
 
-* Within each major step in the appointment-making process, there are a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress:
+* Within each major step in the appointment-making process, there are a bunch of other steps. Because there is little visual representation of progress, users could be thwarted by the number of times they have to click "Continue". There is an outline on the left that changes color for the *major* steps completed, but at the beginning of each major step, the whole screen turns blue, making the contrast too low to see their progress (1):
 
 <p align="center">
   <img src="../Images/appointment-request-progress.PNG" alt="Appointment request progress capture" height = "300px"/>
 </p>
 
-* There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance. (2)
+* There is also a percentage completed shown at the top left as the total progress indicator, but it is so small that users probably wouldn't notice it at first glance. (1)
 ![Appointment Request Progress Capture](../Images/appointment-request-progress-2.PNG)
 
 > *Recommendation: Don't make the whole page blue at each major step; keep the page gray/white to ensure contrast in the progress tracker. Also, create a visual representation of progress by numbering the steps and including arrows. Implement a progress bar that slides forward as the user completes the information.*
@@ -57,7 +57,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
 > *Recommendation: Consider modifying the placeholder text based on what would be most helpful for users' existing habits. Perhaps something like 'Search health topics, conditions, doctors' or whatever is most relevant to most users.*
 
 #### 3. User Control and Freedom
-* After searching for something in the search bar, the user's query is erased. If the user doesn't find the information they were looking for, which happens often (especially since the recommended results don't immediately appear and may be irrelevant), they have to retype their query all over again. (2)
+* After searching for something in the search bar, the user's query is erased. If the user doesn't find the information they were looking for, which could happen often (especially since the recommended results don't immediately appear and may be irrelevant), they have to retype their query all over again. (2)
 
 > *Recommendation: Don't erase the user's query after they hit Search so that they can slightly modify their query if necessary.*
 
@@ -91,7 +91,7 @@ The richness of health information and breadth of features on the Mayo Clinic we
   <img src="../Images/diseases-and-conditions.PNG" alt="Diseases and conditions page" width="500px"/>
 </p>
 
-> *Recommendation: Guide users to the symptom checker, where they can select from a list of symptoms and generate predicted diseases and conditions associated with those symptoms. In general, Mayo Clinic should better emphasize their symptom checker feature because it can be a great resource for many people. (However, emphasize that it is necessary to check with a healthcare provider.)*
+> *Recommendation: Guide users to the symptom checker, where they can select from a list of symptoms and generate predicted diseases and conditions associated with those symptoms. In general, Mayo Clinic should better emphasize their symptom checker feature because it can be a great resource for those concerned with their health, like many seniors. (However, emphasize that it is necessary to check with a healthcare provider.)*
 
 #### 7. Flexibility and Efficiency of Use
 * Because the magnifying glass is within the search box, the user may not recognize that there is another way to trigger the search action (other than Enter). (1)
@@ -236,12 +236,12 @@ My goal is to make their website much more usable, especially for primary users 
 
 ![CSC Community Health Center homepage](../Images/community-health-center-homepage.PNG)
 
-> *Recommendation: Firstly, we need to fix the web developer mistakes so that the features are at least visible. For instance, the language switch needs to be fully visible so that users know they can switch the language of the website (important for the large, nonnative English-speaking user base). Next, de-clutter the website by reorganizing the information presented. For example, it is unnecessary to place the Community Health Center description at the beginning of every tab's page; use that real estate for the menu itself. Lastly, make sure that a design guideline is used so that font sizes, spacing, and colors are appropriate and consistent throughout.*
+> *Recommendation: Firstly, we need to fix the web developer mistakes so that the features are at least visible. For instance, the language switch needs to be fully visible so that users know they can switch the language of the website (important for the large, nonnative English-speaking user base). Next, de-clutter the website by reorganizing the information presented. For example, it is unnecessary to place the Community Health Center description at the beginning of every tab's page; use that real estate for the menu itself. Lastly, make sure that a design guideline is used so that font sizes, spacing, and colors are appropriate for seniors and consistent throughout.*
 
 * The transparency of the tall fixed navigation menu dominates the layout of the page, and is very distracting. The menu is difficult to see and use, especially as users scroll down the page and there is text under the menu. (3)
 * The social media icons don't need to be fixed because they can interrupt content. The user base likely doesn't use much social media anyways. (1)
 
-> *Recommendation: Make the navigation menu opaque, and make it thinner by using the full width of the page and including only the necessary menu items so that more information can be displayed at a given time. Put social media icons in the footer, or at the top right if social media is actually used a lot by users.*
+> *Recommendation: Make the navigation menu opaque, and make it thinner by using the full width of the page and including only the necessary menu items so that more information can be displayed at a given time. Put social media icons in the footer, or at the top right if social media is actually used a lot by users (unlikely).*
 
 #### 9. Help Users Recognize, Diagnose, and Recover From Errors
 * When the wrong account information is entered on the patient portal, there is no indication of whether the username or password was incorrect (or both). (1)
@@ -257,6 +257,6 @@ My goal is to make their website much more usable, especially for primary users 
 
 ### Conclusion
 
-A lot of work needs to be done in many areas, but the areas to focus on first are probably flexibility & efficiency of use and aesthetics & minimalist design. Their resources are invaluable to many low-income, immigrant families, so being able to access that information easily should be prioritized. Also, an important feature to fix first is the visibility of the language switch, since many of their users may be Chinese monolinguals. The website is very harsh to look at in general, making it very difficult to use and makes CSC look unprofessional. An update on aesthetics should therefore be one of their next steps.
+A lot of work needs to be done in many areas, but the areas to focus on first are probably flexibility & efficiency of use and aesthetics & minimalist design. Their resources are invaluable to many low-income, immigrant families and their seniors, so being able to access that information easily should be prioritized. Also, an important feature to fix first is the visibility of the language switch, since many of their users may be Chinese monolinguals. The website is very harsh to look at in general, making it very difficult to use and makes CSC look unreliable. An update on aesthetics should therefore be one of their next steps.
 
 
