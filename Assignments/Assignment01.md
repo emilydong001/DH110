@@ -38,7 +38,7 @@ Ratings are displayed in parentheses after each usability issue.
 ## Website 1: [Mayo Clinic](https://www.mayoclinic.org/)
 
 ### About
-[Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living.
+[Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and whose location in Minnesota has been recognized as the best hospital of 2020-2021 by U.S. News & World Report. Mayo Clinic is a trusted source of medical information about diseases and conditions, possible causes for symptoms, drugs and supplements, tests and procedures, and healthy living. The website is also used by patients to make appointments, access their patient account, and find information about receiving care. 
 
 The richness of health information and breadth of features on the Mayo Clinic website can be both valuable and overwhelming. My goal is to preserve the value while streamlining the user's ability to navigate throughout the website.
 
@@ -232,7 +232,7 @@ My goal is to make their website much more usable, especially for primary users 
 > *Recommendation: Connect the dropdown box with the menu item title to show that the dropdown is under that header.*
 
 #### 7. Flexibility and Efficiency of Use
-* There is no search bar on the website. Given the breadth of information and resources they provide, it would be very helpful to be able to search keywords that will lead users to the information they are looking for. (2)
+* There is no search bar on the website. Given the extent of content and resources they provide, it would be very helpful to be able to search keywords that will lead users to the information they are looking for. (2)
 
 > *Recommendation: Implement a search function to allow users another option to efficiently navigate through the website.*
 
@@ -268,7 +268,7 @@ My goal is to make their website much more usable, especially for primary users 
 > *Recommendation: Tell users which field is incorrect so that they can only fix what's needed.*
 
 #### 10. Help and Documentation
-* Virtually no help or documentation is provided on the website; the email and phone number are prominently displayed, so it is assumed that people would simply call or email to make an appointment. Important information (such as what insurance they accept, phone numbers for different departments) are randomly dispersed throughout the website. (3)
+* Virtually no help or documentation is provided on the website; the email and phone number are prominently displayed, so it is assumed that people would simply call or email to make an appointment or request information. Common information (such as what insurance they accept, phone numbers for different departments, how to request a "token" to access the patient portal) is randomly dispersed throughout the website. (3)
 
 * A lot of information tends to be displayed via images and brochures, but it is difficult to find them. (3)
 
@@ -276,6 +276,6 @@ My goal is to make their website much more usable, especially for primary users 
 
 ### Overall Assessment
 
-A lot of work needs to be done in many areas, but the areas to focus on first are probably flexibility & efficiency of use and aesthetics & minimalist design. Their resources are invaluable to many low-income, immigrant families and their seniors, so being able to access that information easily should be prioritized. Also, an important feature to fix first is the visibility of the language switch, since many of their users may be Chinese monolinguals. The website is very harsh to look at in general, making it very difficult to use and makes CSC look unreliable. An update on aesthetics should therefore be one of their next steps.
+A lot of work needs to be done in many areas, but the areas to focus on first are probably flexibility & efficiency of use and aesthetics & minimalist design. Their health resources are invaluable to many low-income, immigrant families and their seniors, so being able to access that information easily should be prioritized. Also, an important feature to fix first is the visibility of the language switch, since many of their users may be Chinese monolinguals. The website is very harsh to look at in general, making it very difficult to use and makes CSC look unreliable. An update on aesthetics should therefore be one of their next steps.
 
 
