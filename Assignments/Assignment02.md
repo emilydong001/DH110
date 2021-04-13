@@ -34,7 +34,7 @@ The questionnaire consisted of the following components:
 * Pre-test questions
 * Tasks
 * Post-test questions
-  * [System Usability Scale(SUS)](https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html)
+  * [System Usability Scale (SUS)](https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html)
   * [Product Reaction Cards](https://www.nngroup.com/articles/microsoft-desirability-toolkit/)
 * Demographic questions
 
