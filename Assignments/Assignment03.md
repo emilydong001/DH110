@@ -32,7 +32,6 @@ The session included:
 ## Reflection
 
 ### Key Insights from the Interview
-A few key points came up during the interview:
 
 :bulb: **The user wants the experience to feel personal, specific, and efficient. Detailed information needs to be presented clearly and relevantly.**
 * "Sometimes some people write something that you think, "Oh, it's so much detail", you know, and so hard to understand or some kind of requirement that you want to treat it is very difficult to do..."
@@ -47,7 +46,7 @@ A few key points came up during the interview:
 * "If you need to do surgery for something, then better to search for the information, search for the second opinion. Should you do the surgery or not?"
 
 :bulb: **Healthcare providers should be well-integrated in the online experience.**
-* "...sometimes you get your doctor first. Because he knew about your condition better than yourself. Cause he has all your records."
+* "...sometimes you get your doctor first. Because he knew about your condition better than yourself."
 
 ### Personal Insights
 Performing contextual inquiry really helped me empathize with how a senior user feels and what they think about as they are searching for health information, and it gave me new insights (see above) that I will take into account when I redesign the Mayo Clinic website. It was especially eye-opening to see the perspective of a minority-group user whose first language isn't English, as I could directly observe how much they struggled with websites that use text that is too small, terminology that is too complicated, and long paragraphs that don't utilize proper hierarchy and typography to emphasize key points in the articles. Of course, complicated terms can sometimes be unavoidable in a medical context, but websites providing health and healthcare information should still try to simplify their explanations and use transparent terminology as much as possible. Designing with these needs in mind, we can make the search for health information easier for the general population as well.
