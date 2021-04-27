@@ -21,5 +21,18 @@ In addition, I want to implement:
 
 ## Personas and Empathy Maps
 
+<p align="center">
+  <img src="../Images/persona_vincent.png" alt="User Persona, Vincent (Retired Electrician)" width = "700px"/>
+  <img src="../Images/persona_taylor.png" alt="User Persona, Taylor (Business Analyst and Mom)" width = "700px"/>
+</p>
 
+<p align="center">
+  <img src="../Images/empathy_map_vincent.png" alt="Vincent's Empathy Map"/>
+  <img src="../Images/empathy_map_taylor.png" alt="Taylor's Empathy Map"/>
+</p>
+
+<p align="center">
+  <img src="../Images/user_journey_vincent.png" alt="Vincent's Scenario and User Journey"/>
+  <img src="../Images/user_journey_taylor.png" alt="Taylor's Scenario and User Journey"/>
+</p>
 
