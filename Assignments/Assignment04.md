@@ -19,17 +19,21 @@ In addition, I want to implement:
 * Clear and consistent format/hierarchy across health information pages
 * Increased contrast of text and larger font size (approx. 16px)
 
-## Personas and Empathy Maps
+## User Personas
 
 <p align="center">
-  <img src="../Images/persona-vincent.png" alt="Vincent's User Persona" width = "700px"/>
-  <img src="../Images/persona-taylor.png" alt="Taylor's User Persona" width = "700px"/>
+  <img src="../Images/persona-vincent.png" alt="Vincent's User Persona"/>
+  <img src="../Images/persona-taylor.png" alt="Taylor's User Persona"/>
 </p>
+
+## Empathy Maps
 
 <p align="center">
   <img src="../Images/empathy-map-vincent.png" alt="Vincent's Empathy Map"/>
   <img src="../Images/empathy-map-taylor.png" alt="Taylor's Empathy Map"/>
 </p>
+
+## User Scenarios and Journey Maps
 
 <p align="center">
   <img src="../Images/user_journey_vincent.png" alt="Vincent's Scenario and User Journey"/>
