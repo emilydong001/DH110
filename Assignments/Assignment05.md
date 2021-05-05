@@ -44,14 +44,15 @@ Other changes I made to the original site include:
   <img src="../Images/full-wireflow.png" alt="Full wireflow"/>
 </p>
 
-Please see wireflow in full resolution [here](https://whimsical.com/dh110-a05-JnD8JzRCQJ5eQxTb4QqMdB).
+Please see wireframes and wireflow in full resolution [here](https://whimsical.com/dh110-a05-JnD8JzRCQJ5eQxTb4QqMdB).
 
 ## Testing
 
+### User testing
 <p align="center">
-  <img src="../Images/lofi-testing-1.jpg" alt="User testing low-fidelity prototype"/>
-  <img src="../Images/lofi-testing-2.jpg" alt="User testing low-fidelity prototype"/>
-  <img src="../Images/lofi-testing-3.jpg" alt="User testing low-fidelity prototype"/>
+  <img src="../Images/lofi-testing-1.jpg" alt="User testing low-fidelity prototype" width="300px"/>
+  <img src="../Images/lofi-testing-2.jpg" alt="User testing low-fidelity prototype" width="300px"/>
+  <img src="../Images/lofi-testing-3.jpg" alt="User testing low-fidelity prototype" width="300px"/>
 </p>
 
 ## Insights
@@ -70,11 +71,5 @@ Please see wireflow in full resolution [here](https://whimsical.com/dh110-a05-Jn
 * 'Health information' as a label is too vague (everything on the website is technically health information).
 
 :bulb: **The user finds the clickable outline helpful to navigate quickly throughout the article.**
+* The user mentioned that they would normally just scroll and quickly scan the headlines of the article. However, they would find the clickable outline helpful when they scan too fast throughout the page and can't find what they are looking for.
 * The clickable outline has good placement and doesn't need to be changed.
-
-
-
-Please have one page github documentation about your low-fidelity prototype:
-
-A set of pictures of the prototype in different states, showing it being tested.
-A description of what you would change or design differently based on the feedback you got from the prototype testing. For each, describe in a sentence or two about what problem the tester encountered, and in another sentence or two how you would address the problem if you were to revise the prototype.
