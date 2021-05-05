@@ -36,7 +36,7 @@ First, I used [Whimsical](https://www.whimsical.com/) to wireframe an updated Ma
 Other changes I made to the original site include:
 * More condensed top navigation menu and global notification banner to better utilize space 'above the fold'
 * Clear and consistent format/hierarchy across health information pages
-* Increased contrast of text and larger font size (approx. 16px)
+* Increased contrast of text and larger font size
 
 ## Wireframes and Wireflow
 
