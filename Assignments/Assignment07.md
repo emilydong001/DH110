@@ -45,7 +45,8 @@ This one shows navigation through the arthritis page using the clickable outline
 One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar.
 
 <p align="center">
-  <img src="../Images/wireflow-1.PNG" alt="Wireflow for searching for health information"/>
+  <img src="../Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="450px"/>
+  <img src="../Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="450px"/>
 </p>
 
 One user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switched the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere (see before and after images of top navigation below).
