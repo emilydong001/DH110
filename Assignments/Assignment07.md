@@ -18,6 +18,15 @@ Ideally, I would have made the clickable outline sticky so that it follows the u
 ## Interactive Prototype
 Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7mkrhKkn/DH110-Assignment06?node-id=131%3A569&scaling=scale-down-width&page-id=0%3A1).
 
+<iframe 
+        style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+        width="800" 
+        height="450" 
+        src="https://www.figma.com/embed?embed_host=share&url=
+             https%3A%2F%2Fwww.figma.com%2Ffile%2FUIjfi4ADU1IkrE7mkrhKkn%2FDH110-Assignment06%3Fnode-id%3D51%253A75" 
+        allowfullscreen>
+</iframe>
+
 ## Wireflow
 Here's a snapshot of the full wireflow:
 
