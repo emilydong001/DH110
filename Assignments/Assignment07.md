@@ -1,8 +1,5 @@
 # Assignment07: High-Fidelity Prototype
 
-## Project Description
-The goal of this project is to increase accessibility to health information from the widely-trusted [Mayo Clinic website](https://www.mayoclinic.org/). The website was redesigned based on new branding guidelines for Mayo Clinic that have only been implemented in the most recent pages added to the website, such as their COVID-19
-
 ## Tasks Supported
 1. Using the clickable outline to navigate directly to topic of interest
 2. Back-to-top button only at the end of very long pages
@@ -17,15 +14,6 @@ Ideally, I would have made the clickable outline sticky so that it follows the u
 
 ## Interactive Prototype
 Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7mkrhKkn/DH110-Assignment06?node-id=131%3A569&scaling=scale-down-width&page-id=0%3A1).
-
-<iframe 
-        style="border: 1px solid rgba(0, 0, 0, 0.1);" 
-        width="800" 
-        height="450" 
-        src="https://www.figma.com/embed?embed_host=share&url=
-             https%3A%2F%2Fwww.figma.com%2Ffile%2FUIjfi4ADU1IkrE7mkrhKkn%2FDH110-Assignment06%3Fnode-id%3D51%253A75" 
-        allowfullscreen>
-</iframe>
 
 ## Wireflow
 Here's a snapshot of the full wireflow:
@@ -51,16 +39,14 @@ This one shows navigation through the arthritis page using the clickable outline
 ## Cognitive Walkthrough
 
 ## Iterations
-One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar.
+One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
 
 <p align="center">
   <img src="../Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="450px"/>
   <img src="../Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="450px"/>
 </p>
 
-One user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switched the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere (see before and after images of top navigation below).
-
-One user also commented that it was difficult to see the language toggle at first, which is especially important for accessibility. In response to this, I moved the language option more towards the left so that the user can see it more readily in the top navigation:
+One user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switch the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere. They also commented that it was difficult to see the language toggle at first, which is especially important for accessibility. In response to this, I moved the language option more towards the left so that the user can see it more readily in the top navigation:
 
 <p align="center">
   <img src="../Images/top-navigation-before.PNG" alt="top navigation before changing position of language toggle"/>
@@ -69,3 +55,9 @@ One user also commented that it was difficult to see the language toggle at firs
 
 ## Reflection
 
+The goal of this project is to increase accessibility to health information from the widely-trusted [Mayo Clinic website](https://www.mayoclinic.org/). The most difficult part of building this prototype was deciding where different elements should go and how we can maintain the huge amount of information on the website while also sticking to the brand guidelines, preserving the working parts of the website, and introducing more clarity for users. The personas I created helped create a more focused direction on how I should redesign the website - mainly, I wanted to make the site less cluttered, remove repetitive links that would likely be ignored by users, increase accessibility for seniors, allow faster navigation through long pages, and simply make the site more consistent overall. Usability testing and impression tests with low- and high-fidelity prototypes definitely helped with this process, since I was able to determine which features were the most confusing to users. 
+
+Some things that can improve in the future:
+* For the health information pages that are very long (like the diabetes page), there could be an opportunity to give a break to users by using dividers - either a simple line or even a section that introduces the Mayo Clinic marketplace..
+* Perhaps create a version with a 16px base font size to give users an option of whether they want larger or smaller font size. 
+* If possible, allow the user to hover over difficult medical terms so that they can learn more about the term without having to visit another site.
