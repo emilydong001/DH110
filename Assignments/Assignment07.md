@@ -37,6 +37,7 @@ This one shows navigation through the arthritis page using the clickable outline
 </p>
 
 ## Cognitive Walkthrough
+In terms of first impressions, students mentioned that the design looked professional, clear, and that they liked the font and color choices. During the in-class cognitive walkthrough, I went through the task of finding health information about arthritis and diseases, first using the diseases & conditions page and next through the search bar. They didn't seem to have trouble following the flow. I then went through the task of navigating through the pages for diabetes and arthritis using the clickable outline and back-to-top button, and they mentioned that it was convenient to use rather than having to scroll through the whole page. Overall, they described the website as very intuitive to use.
 
 ## Iterations
 One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
