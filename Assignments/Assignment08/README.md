@@ -39,8 +39,8 @@ I visited a senior, minority-group user and independently conducted contextual i
 Storytelling is needed for building empathy. It gives us the ability to create a shared understanding of why we are building a feature, and it serves as an important medium for communicating difficult concepts in a logical way. It also focuses us on the perspective of the user, allowing us to understand the reasons behind a user’s actions and reminding us that *we are not the user*. Storytelling can also facilitate generation of new ideas and can be used to convince key stakeholders to make decisions that will benefit the user in addition to the business.  
 
 <p align="center">
-  <img src="../Images/persona-vincent.png" alt="Vincent's User Persona"/>
-  <img src="../Images/persona-taylor.png" alt="Taylor's User Persona"/>
+  <img src=".../Images/persona-vincent.png" alt="Vincent's User Persona"/>
+  <img src=".../Images/persona-taylor.png" alt="Taylor's User Persona"/>
 </p>
 
 <p align="center">
