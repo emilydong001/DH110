@@ -21,6 +21,9 @@ A pilot usability test (UT) was conducted in order to assess the materials, sett
 
 The usability test and website of interest was first introduced to the participant, and the participant was given an informed consent form to sign. They were given pre-test questions regarding either their previous experience with the website, which might influence test performance, or their first impressions of the website. Keeping in mind the usability concerns mentioned before, the participant was then asked to perform 3 tasks:
 
+<iframe src="https://drive.google.com/file/d/1NBCB_01-NReN6Kc6yMDuIweXLQnG1v2W/preview" width="640" height="480"></iframe>
+
+
 ### User Research [Contextual Inquirty]
 
 I visited a senior, minority-group user and independently conducted contextual inquiry in order to gain a better sense of the environment in which seniors would normally access health information and to use those insights in redesigning the Mayo Clinic website to be more accessible for them. The session was therefore held at the user's home, and audio of the session was recorded and transcribed using Otter.ai on my phone with permission from the user. Field notes and observations of user behavior were taken on a laptop.
@@ -38,15 +41,28 @@ I visited a senior, minority-group user and independently conducted contextual i
 
 Storytelling is needed for building empathy. It gives us the ability to create a shared understanding of why we are building a feature, and it serves as an important medium for communicating difficult concepts in a logical way. It also focuses us on the perspective of the user, allowing us to understand the reasons behind a user’s actions and reminding us that *we are not the user*. Storytelling can also facilitate generation of new ideas and can be used to convince key stakeholders to make decisions that will benefit the user in addition to the business.  
 
-<p align="center">
-  <img src=".../Images/persona-vincent.png" alt="Vincent's User Persona"/>
-  <img src=".../Images/persona-taylor.png" alt="Taylor's User Persona"/>
-</p>
+<table>
+  <tr>
+  <td><p align="center">
+      <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/persona-vincent.png" alt="Vincent's Empathy Map" height="300px"/> 
+      </p></td>
+  <td><p align="center">
+      <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/persona-taylor.png" alt="Taylor's Empathy Map" height="300px"/>
+      </p></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="../Images/empathy-map-vincent.png" alt="Vincent's Empathy Map"/>
-  <img src="../Images/empathy-map-taylor.png" alt="Taylor's Empathy Map"/>
-</p>
+
+<table>
+  <tr>
+  <td><p align="center">
+      <img src="../Images/empathy-map-vincent.png" alt="Vincent's Empathy Map" height="500px"/> 
+      </p></td>
+  <td><p align="center">
+      <img src="../Images/empathy-map-taylor.png" alt="Taylor's Empathy Map" height="500px"/>
+      </p></td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="../Images/user_journey_vincent.png" alt="Vincent's Scenario and User Journey"/>
