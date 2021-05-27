@@ -3,51 +3,57 @@ By Emily Dong
 
 ---
 
-
-##### Introduction
-## Why Design for Seniors?
+## Introduction
+### Seniors need easier access to health information
 According to the United Nations, the number of seniors (65+) is expected to double to 1.5 billion by 2050 globally. Despite seniors being one of the fastest-growing and most affluent demographic groups in wealthy countries, many digital products fail to meet senior accessibility needs and have excluded them from an online world that mostly caters to those with good eyesight, dexterity, and familiarity with the web. 
 
 Health, in particular, is one of the major concerns among seniors, and we should ensure that information is accessible to them. For this project, I hope to demonstrate how we can improve user (patient) experiences on websites with health, healthcare, and patient information so that seniors can maintain their well-being. Additionally, by designing for their accessibility, we are designing for everyone's accessibility.
 
+## Design Statement
+### Preserving value while advocating for senior needs
+[Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and is a trusted source of medical information about diseases and conditions across the world. The website is also used by patients to make appointments, access their patient account, and find information about receiving care. **From my own observations, the richness of health information and breadth of features on the Mayo Clinic website can be both extremely valuable and overwhelming. My goal is to preserve the value while streamlining people's ability to navigate throughout the website.**
 
-##### Design Statement
-## How might we streamline people's ability
-[Mayo Clinic](https://www.mayoclinic.org/) is a non-profit American medical organization dedicated to clinical practice, education, and research, and is a trusted source of medical information about diseases and conditions across the world. The website is also used by patients to make appointments, access their patient account, and find information about receiving care. **The richness of health information and breadth of features on the Mayo Clinic website can be both valuable and overwhelming.** My goal is to preserve the value while streamlining people's ability to navigate throughout the website. 
-
-### Competitor Analysis: Heuristic Evaluation
-
-Jakob Nielson's [10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) Explained
-
-[Severity Ratings](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/) for Usability Problems by Nielsen Norman Group
-
-### Usability Testing
-
-**Usability testing (UT)** is needed in order to confirm these concerns and perhaps identify other usability issues that may diminish the user experience. By observing where users encounter problems or points of confusion while performing a set of tasks, we can obtain empirical data and identify opportunities to improve elements of the website, app, or other product. Furthermore, UT allows us to gain an in-depth understanding of the user's perspective, and with these insights, we can create products that will not only meet users' needs, but will also lead to customer satisfaction and be competitive in the market. If usability testing is done early and often throughout product development, we minimize the need to correct mistakes down the road, saving stakeholders a lot of time, money, and effort.
-
-A pilot usability test (UT) was conducted in order to assess the materials, setting, and software used for usability testing. Due to limited formal testing space, the pilot UT was conducted in a minimalist portable test lab set up in a home setting. A laptop was used to run Zoom to record the user's facial expressions along with interactions with the website, and another laptop was used for the participant to fill out the [survey](https://docs.google.com/forms/d/e/1FAIpQLScKkK4JFiPDIyvAw645oKG36WBJO_igeXGJS6PRohB4tHtyTA/viewform?usp=sf_link). The moderator sat next to the participant.
-
-The usability test and website of interest was first introduced to the participant, and the participant was given an informed consent form to sign. They were given pre-test questions regarding either their previous experience with the website, which might influence test performance, or their first impressions of the website. Keeping in mind the usability concerns mentioned before, the participant was then asked to perform 3 tasks:
+## Research
+### Usability testing of the website
+To identify usability issues on the Mayo Clinic webiste, I conducted usability testing (UT) with a user. Due to limited formal testing space, the pilot UT was conducted in a minimalist portable test lab set up in a home setting. The participant was asked to fill out [this survey] while conducting the test.
 
 <iframe src="https://drive.google.com/file/d/1NBCB_01-NReN6Kc6yMDuIweXLQnG1v2W/preview" width="640" height="480"></iframe>
 
+#### Key Insights
 
-### User Research [Contextual Inquirty]
+:bulb: **The huge amount of content is indeed overwhelming.** Long paragraphs discourage users from reading through. Information was not properly organized in a hierarchical manner, making information and features difficult to find.
 
-I visited a senior, minority-group user and independently conducted contextual inquiry in order to gain a better sense of the environment in which seniors would normally access health information and to use those insights in redesigning the Mayo Clinic website to be more accessible for them. The session was therefore held at the user's home, and audio of the session was recorded and transcribed using Otter.ai on my phone with permission from the user. Field notes and observations of user behavior were taken on a laptop.
+:bulb: **The search bar in the main navigation bar does not provide results for some pages even though they exist.** In other words, the search bar is not as functional for the website as it could be.
 
-#### Materials
-* [Contextual Inquiry Guide/Script](https://docs.google.com/document/d/1zNHiBzdG5Y8lv5J38GJoqpJONRAYYMMKfFZCLkaLXdY/edit?usp=sharing)
+:bulb: **Users take unique paths to perform different tasks, even if they are quite similar.** Websites need to offer flexibility in finding information so that users can search for information according to their own mental models. 
 
-#### Data
-* [Audio + Live Transcript of Interview](https://otter.ai/u/143CuTXnuweLRTeHz_ZRM0jk-Os)
-* [Transcript of Interview Only](https://docs.google.com/document/d/1wEfhU8yfb0pqXnI6XKYqwaGexaXYt36zgwX7lbkksfI/edit?usp=sharing)
-* [Field Notes](https://docs.google.com/document/d/1oOFrh0s3qjZ9RsDALjlodB7VDqvL728tthr8Z_610KA/edit?usp=sharing)
+### Contextual inquiry with a senior
 
+I also visited a senior user in their home and independently conducted contextual inquiry in order to gain a better sense of the environment in which seniors would normally access health information, to observe the user's usual health-search behavior and discover motivations and pain points, and to clarify any observations made.
 
-### UX Storytelling
+#### Key Insights
 
-Storytelling is needed for building empathy. It gives us the ability to create a shared understanding of why we are building a feature, and it serves as an important medium for communicating difficult concepts in a logical way. It also focuses us on the perspective of the user, allowing us to understand the reasons behind a user’s actions and reminding us that *we are not the user*. Storytelling can also facilitate generation of new ideas and can be used to convince key stakeholders to make decisions that will benefit the user in addition to the business.  
+:bulb: **The user wants specific and detailed information.**
+* *"...if I were create the website, then I will specific on what I know, or what I have been, have experience about it. So I concentrate on that one with deep detail.*
+
+:bulb: **At the same time, they want to efficiently find information.**
+* *"Sometimes some people write something that you think, "Oh, it's so much detail", ...and so hard to understand"*
+
+:bulb: **The user wants the experience to feel personal.**
+* *"...you need to look around to see which one is right for you and which one you think is acceptable... The one that first thing is, you feel like that version say something you think is right, for you."*
+
+:bulb: **The user wants to ensure that they are making well-informed health choices.**
+* *"You trust them or not? It's up to you."*
+* *"If you need to do surgery for something, then better to search for the information, search for the second opinion. Should you do the surgery or not?"*
+
+## UX Storytelling
+### Who are we designing for?
+From what I learned during the research phase, I created personas, empathy maps, and user journeys, representing two different user types to ensure that we keep in mind both: 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/persona-vincent.png" alt="Vincent's User Persona" width="500px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/persona-taylor.png" alt="Taylor's User Persona" width="500px"/>
+</p>
 
 <table>
   <tr>
@@ -59,7 +65,6 @@ Storytelling is needed for building empathy. It gives us the ability to create a
       </p></td>
   </tr>
 </table>
-
 
 <table>
   <tr>
