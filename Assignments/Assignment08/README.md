@@ -113,6 +113,8 @@ I also wanted to simplify the website to only the necessary componenets and reor
 
 Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7mkrhKkn/DH110-Assignment06?node-id=131%3A569&scaling=scale-down-width&page-id=0%3A1).
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUIjfi4ADU1IkrE7mkrhKkn%2FDH110-High-Fidelity-Prototype%3Fnode-id%3D131%253A569%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+
 ### Evaluation and Revision History
 
 One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
