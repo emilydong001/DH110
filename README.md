@@ -1,7 +1,7 @@
 # Mayo Clinic Website Redesign - Accessible Delivery of Healthcare Information to Seniors
 By Emily Dong
 
----
+
 
 ## Introduction
 
