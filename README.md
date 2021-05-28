@@ -143,6 +143,8 @@ This entire journey resulted in a website that would allow users of all types - 
 
 Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7mkrhKkn/DH110-Assignment06?node-id=131%3A569&scaling=scale-down-width&page-id=0%3A1).
 
+[>> Read more about creating the high-fidelity prototype](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment07.md)
+
 ### Evaluation and Revision History
 
 One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
