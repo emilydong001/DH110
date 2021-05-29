@@ -21,7 +21,7 @@ Health, in particular, is one of the major concerns among seniors, and we should
 
 ### How usable is the Mayo website?
 
-To identify usability issues on the Mayo Clinic webiste, I first conducted a **heuristic analysis** based on Jakob Nielson's [10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/). Overall, I found that because the Mayo Clinic website contains so much information, the main usability issues involve organizing the content and navigation in a way that is understandable for users, especially in terms of consistency & standards, flexibility & efficiency of use, and aesthetics & minimalist design. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
+To identify usability issues on the Mayo Clinic website, I first conducted a **heuristic analysis** based on Jakob Nielson's [10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/). Overall, I found that because the Mayo Clinic website contains so much information, the main usability issues involve organizing the content and navigation in a way that is understandable for users, especially in terms of consistency & standards, flexibility & efficiency of use, and aesthetics & minimalist design. From an accessibility standpoint, they need to increase their font sizes and contrast between text and background, especially in the main navigation menu but also in other areas of their website. 
 
 [>> Read more about the heuristic analysis](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment01.md)
 
@@ -106,7 +106,7 @@ I also created empathy maps and user journeys to better empathize with how Vince
 In an attempt to satisfy the requirements of Vincent and Taylor, I ideated on a couple ideas that would address users' pain points by:
 * Reorganizing and/or implementing features to make it easier find health information
 * Utilizing a consistent design system to showcase Mayo Clinic as a professional brand
-* Using graphics that produce a feeling of trustworthiness and personalization
+* Using graphics and other features to produce a feeling of trustworthiness and personalization
 * Directing them to a currently overlooked site (Mayo Clinic Connect) where they can communicate with other patients and caregivers
 
 Some key features I ended up incorporating in my low-fidelity prototype (built using Whimsical) include:
@@ -144,7 +144,7 @@ Specifically, I found that:
 
 ### A consistent experience that empowers seniors to find reliable health information
 
-From all the insights I gained from research and user testing, I protoyped a website that would allow users of all types - not just seniors, but also people of all ages - to more efficiently find credible and detailed health information. Furthermore, the consistency of the design system makes it more clear that Mayo Clinic is a trustworthy and prfessional brand, and the use of more personal copy across the website makes the experience feel more personal. Altogether, this design could lead to higher user engagement, higher growth of new users, more efficient processes, and better brand perception of Mayo Clinic.
+From all the insights I gained from research and user testing, I protoyped a website that would allow users of all types - not just seniors, but also people of all ages - to more efficiently find credible and detailed health information. Furthermore, the consistency of the design system makes it more clear that Mayo Clinic is a trustworthy and professional brand, and the use of more personal images and copy across the website makes the experience feel more personal. Altogether, this design could lead to higher user engagement, higher growth of new users, more efficient processes, and better brand perception of Mayo Clinic.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUIjfi4ADU1IkrE7mkrhKkn%2FDH110-High-Fidelity-Prototype%3Fnode-id%3D131%253A569%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 
