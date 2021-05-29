@@ -166,17 +166,17 @@ Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7
 Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility for major areas of interaction and for all three color modes:
 
 <p align="center">
-  <img src="../Images/color-contrast-check-1.PNG" alt="Color accessibility check" width="200px"/>
-  <img src="../Images/color-contrast-check-2.PNG" alt="Color accessibility check for body copy" width="200px"/>
-  <img src="../Images/color-contrast-check-3.PNG" alt="Color accessibility check" width="200px"/>
-  <img src="../Images/color-contrast-check-4.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-1.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-2.PNG" alt="Color accessibility check for body copy" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-3.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-4.PNG" alt="Color accessibility check" width="200px"/>
 </p>
 
 They all met the WCAG2.0 AAA level standard of accessibility except for the royal blue (taken from Mayo Clinic branding guidelines) and 'white' combination, which still met the AA level. I therefore concluded that these color schemes were accessible.
 
 ### More Iterations
 
-During a quick test of the high-fidelity prototype, the user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switch the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere. 
+During a quick test of the high-fidelity prototype, the user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more and welcoming. I made sure to round off the corners of all the buttons to emphasize the more 'friendly' atmosphere. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/buttons-before.PNG" alt="Buttons before altering (sharper)"/>
@@ -187,17 +187,34 @@ They also commented that it was difficult to see the language toggle at first, w
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/language-toggle-before.PNG" alt="top navigation before changing position of language toggle"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/language-toggle-after.PNG" alt="top navigation after changing position of language toggle"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/language-toggle-after.PNG" alt="top navigation after changing position of language toggle" width = "400 px"/>
 </p>
 
 Lastly, Professor Sookie mentioned that having multiple columns within a drop-down can cause an operational accessibility issue, and it would be best to have only one column. Taking this into consideration, I opted for a linear menu that at least had a line to divide between different categories.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-single-column.PNG" alt="top navigation before changing position of language toggle"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-columns.PNG" alt="top navigation after changing position of language toggle"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-columns.PNG" alt="top navigation after changing position of language toggle" height="300px"/>
+    <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-single-column.PNG" alt="top navigation before changing position of language       toggle" height="300px"/>
 </p>
 
 
-### Pitch Video
+## Pitch Video
 
-### Conclusion
+(Will be updated later)
+
+## Conclusion
+
+### Future directions
+* Ideally, I would switch the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices.
+* In terms of ideation, next time I would make sure to first sketch out _all_ my ideas, rather than think of ideas in my head and only use Whimsical to prototype what I think would make the most sense. By doing that, I would give myself more room to be more creative and innovative.
+* I would tackle the Mayo Clinic app to make sure that the experience is consistent and easy to navigate across multiple platforms, especially since increasingly more people are using mobile apps out of convenience. 
+
+### Overall self-reflection
+Through my first-ever attempt at applying the full design thinking process, I most notably learned about:
+* **The importance of considering interface accessibility in color, layout, and typography.** Especially since this was a project meant to advocate for senior usability, I had to make sure that the website took into account a multitude of potential accessibility issues, including appropriate color contrast, layout, typography, keyboard accessibility, etc. It's a lot more technical than I expected it to be, but will be something I will always consider in the future.
+* **Acknowledging possible constraints.** While doing this project, I considered how realistic it was for the company to actually implement this design. I wanted to implement some new features but also make sure that the design wasn't completely different, not just because that would be difficult for developers, but also because users don't tend to like change because they're used to the original design. So, I would say this redesign is what I would imagine to be one of their near-future steps, especially since they're already changing some of their newer pages to the new design system I tried to imitate.
+* **Checking our own assumptions.** Many times throughout this process, I found the user did actions that I didn't expect, and that helped me more deeply understand why we need to conduct user research before we start designing. We are constantly making assumptions, but we need to learn that _we are not the user_ and that design decisions should rooted in data. 
+* **Articulating design decisions.** Throughout this process, I used insights from research and testing to validate my decisions, but it's also important to describe why exactly these design decisions are important for the business itself, especially if the company doesn't completely understand or value UX design. Therefore, I showed how this design could lead to higher user engagement, higher growth of new users, more efficient processes, and better brand perception of Mayo Clinic, which ultimately benefits Mayo Clinic as a business.
+
+
+
