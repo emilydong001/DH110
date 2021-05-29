@@ -87,8 +87,8 @@ Based on the insights I gained from usability testing and contextual inquiry, I 
 I also created empathy maps and user journeys to better empathize with how Vincent and Taylor may act when they are looking for health information. Specifically, I generated scenarios in which people would likely look for health information, again based on user interviews.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-vincent.png" alt="Vincent's Empathy Map" width="300px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-taylor.png" alt="Taylor's Empathy Map" width="300px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-vincent.png" alt="Vincent's Empathy Map" width="500px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-taylor.png" alt="Taylor's Empathy Map" width="500px"/>
 </p>
 
 <p align="center">
@@ -122,9 +122,9 @@ Some key features I ended up incorporating in my low-fidelity prototype (built u
 I then tested the prototype with a user to validate my design decisions and gain new insights. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-1.jpg" alt="User testing low-fidelity prototype" width="300px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-2.jpg" width="300px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-3.jpg" width="300px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-1.jpg" alt="User testing low-fidelity prototype" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-2.jpg" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/lofi-testing-3.jpg" width="200px"/>
 </p>
 
 Specifically, I found that:
@@ -135,14 +135,7 @@ Specifically, I found that:
 
 * **The user did not utilize the 'Health Information' tab in the main navigation at all. They would rather just search.** The user would rather search than use any other functionality, so the search function needs to be the most prominent and functional. The user may also have ignored it since the term 'Health Information' is too general, as we found before.
 
-* **The user finds the clickable outline helpful to navigate quickly throughout the article, but was difficult to find.** The user mentioned that they would normally just scroll and quickly scan the headlines of the article. However, they would find the clickable outline helpful when they scan too fast throughout the page and can't find what they are looking for. In response to the placement of the outline, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
-
-  * _Ideally, the clickable outline would be sticky so that it follows the user down the page. However, Figma currently doesn't support sticky elements if they are outside the original size of the frame._
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="450px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="450px"/>
-</p>
+* **The user finds the clickable outline helpful to navigate quickly throughout the article, but was difficult to find.** The user mentioned that they would normally just scroll and quickly scan the headlines of the article. However, they would find the clickable outline helpful when they scan too fast throughout the page and can't find what they are looking for. 
 
 [>> Read more about building and testing my low-fidelity prototype](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment05.md)
 
@@ -166,10 +159,10 @@ Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7
 Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility for major areas of interaction and for all three color modes:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-1.PNG" alt="Color accessibility check" width="200px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-2.PNG" alt="Color accessibility check for body copy" width="200px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-3.PNG" alt="Color accessibility check" width="200px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-4.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-1.PNG" alt="Color accessibility check" width="150px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-2.PNG" alt="Color accessibility check for body copy" width="150px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-3.PNG" alt="Color accessibility check" width="150px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/color-contrast-check-4.PNG" alt="Color accessibility check" width="150px"/>
 </p>
 
 They all met the WCAG2.0 AAA level standard of accessibility except for the royal blue (taken from Mayo Clinic branding guidelines) and 'white' combination, which still met the AA level. I therefore concluded that these color schemes were accessible.
@@ -177,6 +170,15 @@ They all met the WCAG2.0 AAA level standard of accessibility except for the roya
 [>>Read more about the interface design](https://github.com/emilydong001/DH110/blob/main/Assignments/Assignment06.md)
 
 ### More Iterations
+
+One user pointed out that the clickable outline in the high-fidelity prototype was difficult to find. In response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
+
+  * _Ideally, the clickable outline would be sticky so that it follows the user down the page. However, Figma currently doesn't support sticky elements if they are outside the original size of the frame._
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="300px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="300px"/>
+</p>
 
 During a quick test of the high-fidelity prototype, the user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more and welcoming. I made sure to round off the corners of all the buttons to emphasize the more 'friendly' atmosphere. 
 
