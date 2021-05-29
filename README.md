@@ -65,7 +65,7 @@ I also visited a senior user in their home and independently conducted **context
 Lastly, after conducting card-sorting of the homepage with a user, I found that:
 
 * **'Health Information' as a term is too broad for the top navigation bar.** Anything on the website can be considered 'health information.' Therefore, the name of this item needs to be changed to something more specific.
-* **'Education' can be used as a broader term to encompass their College of Medicine and Science as well as other programs that aren't necessarily part of that college.** For example, the Mayo Clinic School of Continuous Professional Development makes more sense under 'Education' than under 'College of Medicine and Science' (what they have now).
+* **A broader term can be used instead of 'College of Medicine and Science'.** Some of their programs aren't necessarily part of that college (e.g. the Mayo Clinic School of Continuous Professional Development). We can switch this label to 'For Students.'
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/mayo-clinic-card-sort.PNG" alt="Mayo Clinic Card Sort" width="500px"/>
@@ -87,9 +87,15 @@ Based on the insights I gained from usability testing and contextual inquiry, I 
 I also created empathy maps and user journeys to better empathize with how Vincent and Taylor may act when they are looking for health information. Specifically, I generated scenarios in which people would likely look for health information, again based on user interviews.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-vincent.png" alt="Vincent's Empathy Map" width="500px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-taylor.png" alt="Taylor's Empathy Map" width="500px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-vincent.png" alt="Vincent's Empathy Map" width="300px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/empathy-map-taylor.png" alt="Taylor's Empathy Map" width="300px"/>
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/user_journey_vincent.png" alt="Vincent's Scenario and User Journey" width="500px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/user_journey_taylor.png" alt="Taylor's Scenario and User Journey" width="500px"/>
+</p>
+
 
 [>> Read more about creating these research artifacts](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment04.md)
 
@@ -127,17 +133,25 @@ Specifically, I found that:
 
 * **The user ignored the back-to-top button and opted to simply scroll instead.** The user mentioned that they are used to scrolling and tend to ignore back-to-top buttons, even though they are noticeable. We should include bottom navigation visually similar to the top navigation, which could eliminate the need for a back-to-top button. Back-to-top buttons can be reserved for extremely long pages. *Insights may be different for populations that are less used to scrolling or find it difficult to scroll through long pages.*
 
-* **The user did not utilize the 'Health Information' tab in the main navigation at all. They would rather just search.** The user would rather search than use any other functionality, so the search function needs to be the most prominent and functional. 
+* **The user did not utilize the 'Health Information' tab in the main navigation at all. They would rather just search.** The user would rather search than use any other functionality, so the search function needs to be the most prominent and functional. The user may also have ignored it since the term 'Health Information' is too general, as we found before.
 
-* **The user finds the clickable outline helpful to navigate quickly throughout the article.** The user mentioned that they would normally just scroll and quickly scan the headlines of the article. However, they would find the clickable outline helpful when they scan too fast throughout the page and can't find what they are looking for.
+* **The user finds the clickable outline helpful to navigate quickly throughout the article, but was difficult to find.** The user mentioned that they would normally just scroll and quickly scan the headlines of the article. However, they would find the clickable outline helpful when they scan too fast throughout the page and can't find what they are looking for. In response to the placement of the outline, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
+
+  * _Ideally, the clickable outline would be sticky so that it follows the user down the page. However, Figma currently doesn't support sticky elements if they are outside the original size of the frame._
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="450px"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="450px"/>
+</p>
 
 [>> Read more about building and testing my low-fidelity prototype](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment05.md)
+
 
 ## High-fidelity Prototype
 
 ### A consistent experience that empowers seniors to find reliable health information
 
-This entire journey resulted in a website that would allow users of all types - not just seniors, but also people of all ages - to more efficiently find credible and detailed health information. Furthermore, the consistency of the design system makes it more clear that Mayo Clinic is a trustworthy and prfessional brand, and the use of more personal copy across the website makes the experience feel more personal. Altogether, this design could lead to higher user engagement, higher growth of new users, more efficient processes, and better brand perception of Mayo Clinic.
+From all the insights I gained from research and user testing, I protoyped a website that would allow users of all types - not just seniors, but also people of all ages - to more efficiently find credible and detailed health information. Furthermore, the consistency of the design system makes it more clear that Mayo Clinic is a trustworthy and prfessional brand, and the use of more personal copy across the website makes the experience feel more personal. Altogether, this design could lead to higher user engagement, higher growth of new users, more efficient processes, and better brand perception of Mayo Clinic.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUIjfi4ADU1IkrE7mkrhKkn%2FDH110-High-Fidelity-Prototype%3Fnode-id%3D131%253A569%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 
@@ -145,21 +159,44 @@ Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7
 
 [>> Read more about creating the high-fidelity prototype](https://github.com/emilydong001/DH110/edit/main/Assignments/Assignment07.md)
 
-### Evaluation and Revision History
+## Evaluation and Revision History
 
-One user commented that the original placement of the clickable outline was difficult to see, though this may be due to the limited interactions that could be prototyped (e.g. the outline is not sticky). Still, in response to this, I removed the overview box and moved the outline up so that it is visible right under the secondary navigation bar. I also removed the box around the outline to make the interface less cluttered.
+### Evaluating accessibility
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-before.PNG" alt="Diabetes page before changing position of clickable outline" width="450px"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/diabetes-page-after.PNG" alt="Diabetes page after changing position of clickable outline" width="450px"/>
-</p>
-
-One user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switch the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere. They also commented that it was difficult to see the language toggle at first, which is especially important for accessibility. In response to this, I moved the language option more towards the left so that the user can see it more readily in the top navigation:
+Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility for major areas of interaction and for all three color modes:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/top-navigation-before.PNG" alt="top navigation before changing position of language toggle"/>
-  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/top-navigation-after.PNG" alt="top navigation after changing position of language toggle"/>
+  <img src="../Images/color-contrast-check-1.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="../Images/color-contrast-check-2.PNG" alt="Color accessibility check for body copy" width="200px"/>
+  <img src="../Images/color-contrast-check-3.PNG" alt="Color accessibility check" width="200px"/>
+  <img src="../Images/color-contrast-check-4.PNG" alt="Color accessibility check" width="200px"/>
 </p>
+
+They all met the WCAG2.0 AAA level standard of accessibility except for the royal blue (taken from Mayo Clinic branding guidelines) and 'white' combination, which still met the AA level. I therefore concluded that these color schemes were accessible.
+
+### More Iterations
+
+During a quick test of the high-fidelity prototype, the user commented that they thought it felt like a business website - serious and professional. I did want the website to have that impression, but I also wanted the site to look more welcoming. Ideally, I would switch the landing page photo to one that captures a happier experience for the patient, but free stock photos on Unsplashs, Pexel, and other similar websites are limited in their selection of choices. I also made sure to round off the corners of all the buttons to emphasize the more friendly atmosphere. 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/buttons-before.PNG" alt="Buttons before altering (sharper)"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/buttons-after.PNG" alt="Buttons after altering (rounder)"/>
+</p>
+
+They also commented that it was difficult to see the language toggle at first, which is especially important for accessibility. In response to this, I moved the language option more towards the left, added an icon, and changed the label to 'English' so that the user can see it more readily in the top navigation.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/language-toggle-before.PNG" alt="top navigation before changing position of language toggle"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/language-toggle-after.PNG" alt="top navigation after changing position of language toggle"/>
+</p>
+
+Lastly, Professor Sookie mentioned that having multiple columns within a drop-down can cause an operational accessibility issue, and it would be best to have only one column. Taking this into consideration, I opted for a linear menu that at least had a line to divide between different categories.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-single-column.PNG" alt="top navigation before changing position of language toggle"/>
+  <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/health-topics-menu-columns.PNG" alt="top navigation after changing position of language toggle"/>
+</p>
+
 
 ### Pitch Video
 
