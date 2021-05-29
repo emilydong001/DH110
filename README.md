@@ -161,7 +161,7 @@ Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7
 
 ## Evaluation and Revision History
 
-### Evaluating accessibility
+### Evaluating color accessibility
 
 Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility for major areas of interaction and for all three color modes:
 
@@ -173,6 +173,8 @@ Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility 
 </p>
 
 They all met the WCAG2.0 AAA level standard of accessibility except for the royal blue (taken from Mayo Clinic branding guidelines) and 'white' combination, which still met the AA level. I therefore concluded that these color schemes were accessible.
+
+[>>Read more about the interface design](https://github.com/emilydong001/DH110/blob/main/Assignments/Assignment06.md)
 
 ### More Iterations
 
