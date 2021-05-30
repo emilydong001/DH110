@@ -109,12 +109,6 @@ In an attempt to satisfy the requirements of Vincent and Taylor, I ideated on a 
 * Using graphics and other features to produce a feeling of trustworthiness and personalization
 * Directing them to a currently overlooked site (Mayo Clinic Connect) where they can communicate with other patients and caregivers
 
-Some key features I ended up incorporating in my low-fidelity prototype (built using Whimsical) include:
-1. **Clickable outline/overview:** Allows the user to quickly navigate to different parts of the article
-2. **Breadcrumbs:** Displayed consistently at the top of each article; can be used as alternative navigation and gives the user a sense of where they are on the site
-3. **Search feature within each health information subcategory (e.g. Diseases & Conditions, Symptoms, Tests & Procedures, Drugs & Supplements):** Allows the user to search by typing rather than only search by first letter
-4. **Section that leads to Mayo Clinic Connect:** Briefly introduces the user to Mayo Clinic Connect and allows them to directly go on that site to discuss personal health-related stories with other patients and/or caregivers (as I understand, the main Mayo Clinic site currently does not have a link to Mayo Clinic Connect).
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/emilydong001/DH110/main/Images/full-wireflow.png" alt="Full wireflow"/>
 </p>
@@ -154,7 +148,7 @@ Link to interactive prototype [here](https://www.figma.com/proto/UIjfi4ADU1IkrE7
 
 ## Evaluation and Revision History
 
-### Evaluating color accessibility
+### Evaluating accessibility
 
 Using the [Stark](https://www.getstark.co/) plugin, I checked the accessibility for major areas of interaction and for all three color modes:
 
