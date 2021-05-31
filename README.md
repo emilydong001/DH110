@@ -198,7 +198,7 @@ Lastly, Professor Sookie mentioned that having multiple columns within a drop-do
 
 ## Pitch Video
 
-(Will be updated later)
+<iframe src="https://drive.google.com/file/d/1qiPeznDgHa2OdYklTQIGpNv6X3VtQVXX/preview" width="640" height="480"></iframe>
 
 ## Conclusion
 
